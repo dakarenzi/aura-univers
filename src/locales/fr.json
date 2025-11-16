@@ -100,7 +100,7 @@
       },
       {
         "title": "Sensibilisation à la Santé Mentale",
-        "description": "Dédiée à la déstigmatisation de la santé mentale et à la promotion de ressources accessibles. Je travaille avec des organisations pour créer des espaces de dialogue sûrs, partager des histoires poignantes de rétablissement et plaider pour des politiques qui intègrent les soins de santé mentale dans nos communautés et nos écoles. Votre bien-être mental est important."
+        "description": "Dédiée à la déstigmatisation de la santé mentale et à la promotion de ressources accessibles. Je travaille avec des organisations pour créer des espaces de dialogue s��rs, partager des histoires poignantes de rétablissement et plaider pour des politiques qui intègrent les soins de santé mentale dans nos communautés et nos écoles. Votre bien-être mental est important."
       }
     ]
   },
@@ -137,26 +137,30 @@
     "meta_description": "Lisez les derniers articles, histoires et actualités du parcours de Camilla. Réflexions sur le plaidoyer, la croissance personnelle et le monde de Miss Univers.",
     "title": "Du Blog",
     "subtitle": "Une collection d'histoires, de réflexions et d'actualités de mon parcours.",
-    "read_more": "Lire la Suite"
+    "read_more": "Lire la Suite",
+    "back_to_blog": "Retour au Blog"
   },
   "blog_posts": [
     {
       "slug": "le-pouvoir-de-l-education",
       "title": "Le Pouvoir de l'Éducation : Libérer le Potentiel de Chaque Fille",
       "summary": "Découvrez pourquoi l'équité en matière d'éducation est la pierre angulaire de mon plaidoyer et comment l'initiative 'Empower Her' fait une différence dans les communautés.",
-      "image": "https://images.unsplash.com/photo-1491841550275-5b462bf975db?q=80&w=2940&auto=format&fit=crop"
+      "image": "https://images.unsplash.com/photo-1491841550275-5b462bf975db?q=80&w=2940&auto=format&fit=crop",
+      "content": "L'éducation est plus que simplement apprendre à lire et à écrire ; c'est l'arme la plus puissante que vous puissiez utiliser pour changer le monde. Pour des millions de filles à travers le globe, cependant, ce droit fondamental reste un rêve lointain. Ce n'est pas seulement une perte pour elles, mais une perte pour nous tous. Quand une fille est éduquée, elle est autonomisée. Elle peut prendre des décisions éclairées sur sa santé, sa famille et son avenir. Elle peut briser le cycle de la pauvreté et contribuer à la croissance économique de sa communauté et de sa nation.\nMon initiative 'Empower Her' est née de cette conviction. Nous travaillons sur le terrain, en fournissant des bourses, en construisant des environnements d'apprentissage sûrs et en encadrant de jeunes femmes pour qu'elles deviennent les leaders de demain. Nous avons vu de nos propres yeux comment une seule bourse peut transformer une vie, et comment une salle de classe sûre peut devenir un sanctuaire où les rêves s'épanouissent. Le chemin est long, mais chaque fille que nous atteignons est un pas vers un monde plus juste et équitable."
     },
     {
       "slug": "mon-chemin-vers-la-couronne",
       "title": "Mon Chemin vers la Couronne : Plus qu'un Simple Titre",
       "summary": "Une réflexion personnelle sur le parcours vers la scène nationale, les défis surmontés et le but qui me pousse à avancer chaque jour.",
-      "image": "https://images.unsplash.com/photo-1528207776546-365bb710ee93?q=80&w=2848&auto=format&fit=crop"
+      "image": "https://images.unsplash.com/photo-1528207776546-365bb710ee93?q=80&w=2848&auto=format&fit=crop",
+      "content": "Beaucoup voient la couronne, l'écharpe, les robes glamour. Mais mon parcours jusqu'à cette scène a été pavé de moments de doute, de travail acharné et d'une foi inébranlable en mon objectif. Il n'a pas commencé par un désir de reconnaissance, mais par un besoin profond de faire une différence tangible. Les matins de bonne heure, les heures de préparation interminables, les sacrifices — tout cela était alimenté par la vision d'une plateforme depuis laquelle je pourrais parler pour ceux qui ne le peuvent pas.\nIl y a eu des moments où la pression semblait écrasante, où la critique était acerbe. Dans ces moments, je me suis appuyée sur ma famille, mes mentors et les histoires des personnes que je souhaite servir. Ils m'ont rappelé que ce n'était pas à propos de moi. C'était à propos des causes que je représente, du changement que j'espère inspirer. Ce titre n'est pas la destination ; c'est le début d'un nouveau chapitre de service, plus percutant."
     },
     {
       "slug": "la-sante-mentale-compte",
       "title": "La Santé Mentale Compte : Briser le Stigmate Ensemble",
       "summary": "Rejoignez la conversation sur le bien-être mental. Je partage mon point de vue sur pourquoi il est crucial de créer une culture d'ouverture et de soutien.",
-      "image": "https://images.unsplash.com/photo-1598982249552-217c390d4c64?q=80&w=2940&auto=format&fit=crop"
+      "image": "https://images.unsplash.com/photo-1598982249552-217c390d4c64?q=80&w=2940&auto=format&fit=crop",
+      "content": "Dans un monde qui exige souvent la perfection, il est plus important que jamais de parler de notre santé mentale. Pendant trop longtemps, les conversations sur l'anxiété, la dépression et le bien-être mental ont été enveloppées de silence et de stigmatisation. Ce silence est dangereux. Il empêche les gens de chercher l'aide dont ils ont besoin et qu'ils méritent. Il crée une culture où souffrir en silence est considéré comme un signe de force, alors qu'en réalité, c'est le contraire. La vraie force réside dans la vulnérabilité, dans le fait de tendre la main et de se soutenir les uns les autres.\nNous devons normaliser ces conversations dans nos foyers, nos écoles et nos lieux de travail. Nous devons plaider pour un meilleur accès aux soins de santé mentale et créer des communautés où l'empathie et la compréhension sont la norme. Mon propre parcours m'a appris l'importance de prendre soin de soi et de chercher du soutien. Il est normal de ne pas aller bien, mais il n'est pas normal de souffrir seul. Brisons le stigmate, ensemble."
     }
   ],
   "press_kit_page": {

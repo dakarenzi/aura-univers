@@ -9,6 +9,7 @@ import { useState } from 'react';
 import { PageMetadata } from '@/components/PageMetadata';
 import { useTranslation } from '@/hooks/useTranslation';
 import { PageLoader } from '@/components/PageLoader';
+import { LazyImage } from '@/components/LazyImage';
 const images = [
   'https://images.unsplash.com/photo-1542596594-649ed6e6b342?q=80&w=2574&auto=format=fit=crop',
   'https://images.unsplash.com/photo-1508341591423-4347099e1f19?q=80&w=2574&auto=format=fit=crop',
@@ -44,7 +45,7 @@ export function GalleryPage() {
                   <div key={index} className="break-inside-avoid">
                     <DialogTrigger asChild onClick={() => setSelectedImage(src)}>
                       <Card className="overflow-hidden cursor-pointer group border-brand-gold/20 hover:border-brand-gold/50 transition-all duration-300 bg-card">
-                        <img
+                        <LazyImage
                           src={src}
                           alt={`${t('gallery.image_alt')} ${index + 1}`}
                           className="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-300"

@@ -137,26 +137,30 @@
     "meta_description": "Read the latest articles, stories, and updates from Camilla's journey. Insights on advocacy, personal growth, and the world of Miss Universe.",
     "title": "From the Blog",
     "subtitle": "A collection of stories, insights, and updates from my journey.",
-    "read_more": "Read More"
+    "read_more": "Read More",
+    "back_to_blog": "Back to Blog"
   },
   "blog_posts": [
     {
       "slug": "the-power-of-education",
       "title": "The Power of Education: Unlocking Potential in Every Girl",
       "summary": "Discover why educational equity is the cornerstone of my advocacy and how the 'Empower Her' initiative is making a difference in communities.",
-      "image": "https://images.unsplash.com/photo-1491841550275-5b462bf975db?q=80&w=2940&auto=format&fit=crop"
+      "image": "https://images.unsplash.com/photo-1491841550275-5b462bf975db?q=80&w=2940&auto=format&fit=crop",
+      "content": "Education is more than just learning to read and write; it is the most powerful weapon which you can use to change the world. For millions of girls around the globe, however, this fundamental right remains a distant dream. This is not just a loss for them, but a loss for all of us. When a girl is educated, she is empowered. She can make informed decisions about her health, her family, and her future. She can break the cycle of poverty and contribute to the economic growth of her community and her nation.\nMy 'Empower Her' initiative was born from this conviction. We work on the ground, providing scholarships, building safe learning environments, and mentoring young women to become the leaders of tomorrow. We've seen firsthand how a single scholarship can transform a life, and how a safe classroom can become a sanctuary for dreams to flourish. The journey is long, but every girl we reach is a step towards a more just and equitable world."
     },
     {
       "slug": "my-journey-to-the-crown",
       "title": "My Journey to the Crown: More Than Just a Title",
       "summary": "A personal reflection on the path to the national stage, the challenges overcome, and the purpose that drives me forward every day.",
-      "image": "https://images.unsplash.com/photo-1528207776546-365bb710ee93?q=80&w=2848&auto=format&fit=crop"
+      "image": "https://images.unsplash.com/photo-1528207776546-365bb710ee93?q=80&w=2848&auto=format&fit=crop",
+      "content": "Many see the crown, the sash, the glamorous gowns. But my journey to this stage has been paved with moments of self-doubt, relentless hard work, and an unwavering belief in my purpose. It began not with a desire for recognition, but with a deep-seated need to make a tangible difference. The early mornings, the endless hours of preparation, the sacrifices—they were all fueled by the vision of a platform from which I could speak for those who could not.\nThere were times when the pressure felt overwhelming, when the criticism was sharp. In those moments, I leaned on my family, my mentors, and the stories of the people I aim to serve. They reminded me that this was not about me. It was about the causes I represent, the change I hope to inspire. This title is not the destination; it is the beginning of a new, more impactful chapter of service."
     },
     {
       "slug": "mental-health-matters",
       "title": "Mental Health Matters: Breaking the Stigma Together",
       "summary": "Join the conversation on mental well-being. I share my perspective on why it's crucial to create a culture of openness and support.",
-      "image": "https://images.unsplash.com/photo-1598982249552-217c390d4c64?q=80&w=2940&auto=format&fit=crop"
+      "image": "https://images.unsplash.com/photo-1598982249552-217c390d4c64?q=80&w=2940&auto=format&fit=crop",
+      "content": "In a world that often demands perfection, it is more important than ever to talk about our mental health. For too long, conversations about anxiety, depression, and mental well-being have been shrouded in silence and stigma. This silence is dangerous. It prevents people from seeking the help they need and deserve. It creates a culture where suffering in silence is seen as a sign of strength, when in fact, the opposite is true. True strength lies in vulnerability, in reaching out, and in supporting one another.\nWe must normalize these conversations in our homes, schools, and workplaces. We must advocate for better access to mental healthcare and create communities where empathy and understanding are the norms. My own journey has taught me the importance of self-care and seeking support. It's okay not to be okay, but it's not okay to suffer alone. Let's break the stigma, together."
     }
   ],
   "press_kit_page": {

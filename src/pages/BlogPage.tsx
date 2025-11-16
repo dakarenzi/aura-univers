@@ -7,6 +7,7 @@ import { AspectRatio } from '@/components/ui/aspect-ratio';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { ArrowRight } from 'lucide-react';
+import { LazyImage } from '@/components/LazyImage';
 export function BlogPage() {
   const { t, isLoading } = useTranslation();
   if (isLoading) return <PageLoader />;
@@ -30,7 +31,7 @@ export function BlogPage() {
               {blogPosts.map((post: any) => (
                 <Card key={post.slug} className="overflow-hidden border-brand-gold/20 shadow-lg bg-card flex flex-col group">
                   <AspectRatio ratio={16 / 9}>
-                    <img
+                    <LazyImage
                       src={post.image}
                       alt={post.title}
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
@@ -40,8 +41,7 @@ export function BlogPage() {
                     <h3 className="text-xl font-display font-bold text-foreground flex-grow">{post.title}</h3>
                     <p className="mt-2 text-foreground/80 text-sm flex-grow">{post.summary}</p>
                     <Button asChild variant="link" className="p-0 mt-4 text-brand-gold self-start">
-                      {/* In a real app, this would link to /blog/${post.slug} */}
-                      <Link to="/blog">
+                      <Link to={`/blog/${post.slug}`}>
                         {t('blog_page.read_more')} <ArrowRight className="ml-2 h-4 w-4" />
                       </Link>
                     </Button>

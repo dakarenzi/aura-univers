@@ -87,13 +87,13 @@ export function ContactPage() {
                   {t('contact.follow_subtitle')}
                 </p>
                 <div className="flex space-x-4">
-                  <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="p-3 bg-brand-gold/10 rounded-full hover:bg-brand-gold/20 transition-colors">
+                  <a href="https://instagram.com/aurauniverse.official" target="_blank" rel="noopener noreferrer" className="p-3 bg-brand-gold/10 rounded-full hover:bg-brand-gold/20 transition-colors">
                     <Instagram className="h-6 w-6 text-brand-gold" />
                   </a>
-                  <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="p-3 bg-brand-gold/10 rounded-full hover:bg-brand-gold/20 transition-colors">
+                  <a href="https://youtube.com/@aurauniverse" target="_blank" rel="noopener noreferrer" className="p-3 bg-brand-gold/10 rounded-full hover:bg-brand-gold/20 transition-colors">
                     <Youtube className="h-6 w-6 text-brand-gold" />
                   </a>
-                  <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer" className="p-3 bg-brand-gold/10 rounded-full hover:bg-brand-gold/20 transition-colors">
+                  <a href="https://tiktok.com/@aurauniverse.official" target="_blank" rel="noopener noreferrer" className="p-3 bg-brand-gold/10 rounded-full hover:bg-brand-gold/20 transition-colors">
                     <TikTokIcon />
                   </a>
                 </div>

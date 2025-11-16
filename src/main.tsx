@@ -24,6 +24,8 @@ import { HelmetProvider } from 'react-helmet-async';
 import { LanguageProvider } from './contexts/LanguageContext';
 import { PressKitPage } from './pages/PressKitPage';
 import { BlogPage } from './pages/BlogPage';
+import { BlogPostPage } from './pages/BlogPostPage';
+import { ScrollToTop } from './components/ScrollToTop';
 const router = createBrowserRouter([
   {
     element: (
@@ -40,6 +42,7 @@ const router = createBrowserRouter([
       { path: "/advocacy", element: <AdvocacyPage /> },
       { path: "/qa", element: <QAPage /> },
       { path: "/blog", element: <BlogPage /> },
+      { path: "/blog/:slug", element: <BlogPostPage /> },
       { path: "/press-kit", element: <PressKitPage /> },
       { path: "/contact", element: <ContactPage /> },
     ]
@@ -53,6 +56,7 @@ createRoot(document.getElementById('root')!).render(
         <ErrorBoundary>
           <RouterProvider router={router} />
           <Toaster />
+          <ScrollToTop />
         </ErrorBoundary>
       </HelmetProvider>
     </LanguageProvider>
