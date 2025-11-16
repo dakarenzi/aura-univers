@@ -6,6 +6,7 @@
     "videos": "Videos",
     "advocacy": "Advocacy",
     "qa": "Q&A",
+    "press_kit": "Press Kit",
     "contact": "Contact"
   },
   "header": {
@@ -75,10 +76,10 @@
     "title": "Videos",
     "subtitle": "Highlights from interviews, campaigns, and performances.",
     "items": [
-      { "id": "rokGy0huYEA", "title": "Miss Universe 2023 - RBonney Gabriel (USA) | Final Question" },
-      { "id": "b-18vQwno-A", "title": "Miss Universe 2022 - FULL SHOW" },
-      { "id": "Z8l3h_5A4eE", "title": "Miss Universe 2021 - Harnaaz Sandhu (India) | Final Question" },
-      { "id": "UryjCzSeMXE", "title": "Miss Universe 2020 - Andrea Meza (Mexico) | Final Question" }
+      { "id": "d1a2b3c4e5f6a7b8c9d0e1f2a3b4c5d6", "title": "Journey to the Crown: A Documentary" },
+      { "id": "e6f5d4c3b2a1f0e9d8c7b6a5f4e3d2c1", "title": "Advocacy in Action: Empower Her Initiative" },
+      { "id": "a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6", "title": "A Conversation on Global Issues" },
+      { "id": "f6e5d4c3b2a1f0e9d8c7b6a5f4e3d2c1", "title": "Behind the Scenes: The Final Night" }
     ]
   },
   "advocacy_page": {
@@ -124,6 +125,20 @@
         "answer": "'Beauty with a purpose' means using one's visibility and influence for the greater good. It's about recognizing that true beauty lies in our actions, our empathy, and our commitment to leaving the world a better place than we found it. It's about service, substance, and impact."
       }
     ]
+  },
+  "press_kit_page": {
+    "meta_title": "Press Kit | Aura Universe",
+    "meta_description": "Access official media resources for Camilla, including a downloadable press kit, high-resolution photos, and public relations contact information.",
+    "title": "Press Kit",
+    "subtitle": "Official resources for media, press, and partnership inquiries.",
+    "download_title": "Download Full Press Kit",
+    "download_description": "Our comprehensive press kit includes a detailed biography, official headshots, and information about my advocacy work. Available in PDF format.",
+    "download_cta": "Download PDF",
+    "photos_title": "Media Photos",
+    "photo_alt": "Media photo of Camilla",
+    "contact_title": "Public Relations Contact",
+    "contact_description": "For all media inquiries, interview requests, or booking information, please contact my public relations team.",
+    "contact_email": "pr@aurauniverse.com"
   },
   "contact": {
     "meta_title": "Contact Me | Aura Universe",

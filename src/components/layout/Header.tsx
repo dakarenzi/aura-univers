@@ -14,6 +14,7 @@ const navPaths = [
   { key: 'videos', path: '/videos' },
   { key: 'advocacy', path: '/advocacy' },
   { key: 'qa', path: '/qa' },
+  { key: 'press_kit', path: '/press-kit' },
   { key: 'contact', path: '/contact' },
 ];
 export function Header() {

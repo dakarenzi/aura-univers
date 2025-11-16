@@ -1,11 +1,12 @@
 {
   "nav": {
     "home": "Accueil",
-    "about": "�� Propos",
+    "about": "À Propos",
     "gallery": "Galerie",
     "videos": "Vidéos",
     "advocacy": "Plaidoyer",
     "qa": "Q&R",
+    "press_kit": "Dossier de Presse",
     "contact": "Contact"
   },
   "header": {
@@ -75,10 +76,10 @@
     "title": "Vidéos",
     "subtitle": "Moments forts des interviews, campagnes et performances.",
     "items": [
-      { "id": "rokGy0huYEA", "title": "Miss Univers 2023 - RBonney Gabriel (USA) | Question Finale" },
-      { "id": "b-18vQwno-A", "title": "Miss Univers 2022 - SPECTACLE COMPLET" },
-      { "id": "Z8l3h_5A4eE", "title": "Miss Univers 2021 - Harnaaz Sandhu (Inde) | Question Finale" },
-      { "id": "UryjCzSeMXE", "title": "Miss Univers 2020 - Andrea Meza (Mexique) | Question Finale" }
+      { "id": "d1a2b3c4e5f6a7b8c9d0e1f2a3b4c5d6", "title": "Le chemin vers la couronne : Un documentaire" },
+      { "id": "e6f5d4c3b2a1f0e9d8c7b6a5f4e3d2c1", "title": "Le plaidoyer en action : Initiative Empower Her" },
+      { "id": "a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6", "title": "Une conversation sur les enjeux mondiaux" },
+      { "id": "f6e5d4c3b2a1f0e9d8c7b6a5f4e3d2c1", "title": "Dans les coulisses : La soirée finale" }
     ]
   },
   "advocacy_page": {
@@ -109,7 +110,7 @@
       },
       {
         "question": "Comment gérez-vous la pression de la compétition ?",
-        "answer": "Je gère la pression en restant ancrée dans mon objectif. Je me rappelle pourquoi j'ai commencé ce voyage : pour faire une différence. La pratique de la pleine conscience, le maintien d'un solide système de soutien familial et amical, et la concentration sur ma croissance personnelle plutôt que sur le simple résultat sont des éléments essentiels de ma routine."
+        "answer": "Je g��re la pression en restant ancrée dans mon objectif. Je me rappelle pourquoi j'ai commencé ce voyage : pour faire une différence. La pratique de la pleine conscience, le maintien d'un solide système de soutien familial et amical, et la concentration sur ma croissance personnelle plutôt que sur le simple résultat sont des éléments essentiels de ma routine."
       },
       {
         "question": "Quelle est votre plus grande source d'inspiration ?",
@@ -121,9 +122,23 @@
       },
       {
         "question": "Comment définissez-vous la 'beauté avec un but' ?",
-        "answer": "La 'beauté avec un but' signifie utiliser sa visibilité et son influence pour le bien commun. Il s'agit de reconnaître que la vraie beauté réside dans nos actions, notre empathie et notre engagement à laisser le monde meilleur que nous ne l'avons trouvé. C'est une question de service, de substance et d'impact."
+        "answer": "'La beauté avec un but' signifie utiliser sa visibilité et son influence pour le bien commun. Il s'agit de reconnaître que la vraie beauté réside dans nos actions, notre empathie et notre engagement à laisser le monde meilleur que nous ne l'avons trouvé. C'est une question de service, de substance et d'impact."
       }
     ]
+  },
+  "press_kit_page": {
+    "meta_title": "Dossier de Presse | Aura Universe",
+    "meta_description": "Accédez aux ressources médiatiques officielles de Camilla, y compris un dossier de presse téléchargeable, des photos haute résolution et les coordonnées des relations publiques.",
+    "title": "Dossier de Presse",
+    "subtitle": "Ressources officielles pour les médias, la presse et les demandes de partenariat.",
+    "download_title": "Télécharger le Dossier de Presse Complet",
+    "download_description": "Notre dossier de presse complet comprend une biographie détaillée, des portraits officiels et des informations sur mon travail de plaidoyer. Disponible au format PDF.",
+    "download_cta": "Télécharger le PDF",
+    "photos_title": "Photos pour les Médias",
+    "photo_alt": "Photo de Camilla pour les médias",
+    "contact_title": "Contact Relations Publiques",
+    "contact_description": "Pour toutes les demandes des médias, les demandes d'interview ou les informations de réservation, veuillez contacter mon équipe de relations publiques.",
+    "contact_email": "pr@aurauniverse.com"
   },
   "contact": {
     "meta_title": "Contactez-moi | Aura Universe",

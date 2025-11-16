@@ -30,7 +30,7 @@ export function VideosPage() {
                     <AspectRatio ratio={16 / 9}>
                       <iframe
                         className="w-full h-full"
-                        src={`https://www.youtube.com/embed/${video.id}`}
+                        src={`https://customer-a1b2c3d4e5f6.cloudflarestream.com/${video.id}/iframe`}
                         title={video.title}
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowFullScreen
