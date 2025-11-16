@@ -6,6 +6,7 @@
     "videos": "Videos",
     "advocacy": "Advocacy",
     "qa": "Q&A",
+    "blog": "Blog",
     "press_kit": "Press Kit",
     "contact": "Contact"
   },
@@ -18,7 +19,12 @@
     "meta_description": "Welcome to the official portfolio of Camilla. Discover the journey of grace, intelligence, and determination of a Miss Universe contestant.",
     "title": "The Aura of the Universe",
     "subtitle": "Embodying grace, intelligence, and determination. Discover Camilla's journey.",
-    "cta": "Discover My Story"
+    "cta": "Discover My Story",
+    "blog_section": {
+      "title": "From the Blog",
+      "subtitle": "Insights, stories, and updates from my journey.",
+      "view_all": "View All Posts"
+    }
   },
   "about": {
     "meta_title": "About Camilla | Aura Universe",
@@ -126,6 +132,33 @@
       }
     ]
   },
+  "blog_page": {
+    "meta_title": "Blog | Aura Universe",
+    "meta_description": "Read the latest articles, stories, and updates from Camilla's journey. Insights on advocacy, personal growth, and the world of Miss Universe.",
+    "title": "From the Blog",
+    "subtitle": "A collection of stories, insights, and updates from my journey.",
+    "read_more": "Read More"
+  },
+  "blog_posts": [
+    {
+      "slug": "the-power-of-education",
+      "title": "The Power of Education: Unlocking Potential in Every Girl",
+      "summary": "Discover why educational equity is the cornerstone of my advocacy and how the 'Empower Her' initiative is making a difference in communities.",
+      "image": "https://images.unsplash.com/photo-1491841550275-5b462bf975db?q=80&w=2940&auto=format&fit=crop"
+    },
+    {
+      "slug": "my-journey-to-the-crown",
+      "title": "My Journey to the Crown: More Than Just a Title",
+      "summary": "A personal reflection on the path to the national stage, the challenges overcome, and the purpose that drives me forward every day.",
+      "image": "https://images.unsplash.com/photo-1528207776546-365bb710ee93?q=80&w=2848&auto=format&fit=crop"
+    },
+    {
+      "slug": "mental-health-matters",
+      "title": "Mental Health Matters: Breaking the Stigma Together",
+      "summary": "Join the conversation on mental well-being. I share my perspective on why it's crucial to create a culture of openness and support.",
+      "image": "https://images.unsplash.com/photo-1598982249552-217c390d4c64?q=80&w=2940&auto=format&fit=crop"
+    }
+  ],
   "press_kit_page": {
     "meta_title": "Press Kit | Aura Universe",
     "meta_description": "Access official media resources for Camilla, including a downloadable press kit, high-resolution photos, and public relations contact information.",

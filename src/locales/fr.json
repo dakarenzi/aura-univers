@@ -6,6 +6,7 @@
     "videos": "Vidéos",
     "advocacy": "Plaidoyer",
     "qa": "Q&R",
+    "blog": "Blog",
     "press_kit": "Dossier de Presse",
     "contact": "Contact"
   },
@@ -18,7 +19,12 @@
     "meta_description": "Bienvenue sur le portfolio officiel de Camilla. Découvrez le parcours de grâce, d'intelligence et de détermination d'une candidate à Miss Univers.",
     "title": "L'Aura de l'Univers",
     "subtitle": "Incarnant la grâce, l'intelligence et la détermination. Découvrez le parcours de Camilla.",
-    "cta": "Découvrez Mon Histoire"
+    "cta": "Découvrez Mon Histoire",
+    "blog_section": {
+      "title": "Du Blog",
+      "subtitle": "Réflexions, histoires et actualités de mon parcours.",
+      "view_all": "Voir Tous les Articles"
+    }
   },
   "about": {
     "meta_title": "À Propos de Camilla | Aura Universe",
@@ -110,7 +116,7 @@
       },
       {
         "question": "Comment gérez-vous la pression de la compétition ?",
-        "answer": "Je g��re la pression en restant ancrée dans mon objectif. Je me rappelle pourquoi j'ai commencé ce voyage : pour faire une différence. La pratique de la pleine conscience, le maintien d'un solide système de soutien familial et amical, et la concentration sur ma croissance personnelle plutôt que sur le simple résultat sont des éléments essentiels de ma routine."
+        "answer": "Je gère la pression en restant ancrée dans mon objectif. Je me rappelle pourquoi j'ai commencé ce voyage : pour faire une différence. La pratique de la pleine conscience, le maintien d'un solide système de soutien familial et amical, et la concentration sur ma croissance personnelle plutôt que sur le simple résultat sont des éléments essentiels de ma routine."
       },
       {
         "question": "Quelle est votre plus grande source d'inspiration ?",
@@ -126,6 +132,33 @@
       }
     ]
   },
+  "blog_page": {
+    "meta_title": "Blog | Aura Universe",
+    "meta_description": "Lisez les derniers articles, histoires et actualités du parcours de Camilla. Réflexions sur le plaidoyer, la croissance personnelle et le monde de Miss Univers.",
+    "title": "Du Blog",
+    "subtitle": "Une collection d'histoires, de réflexions et d'actualités de mon parcours.",
+    "read_more": "Lire la Suite"
+  },
+  "blog_posts": [
+    {
+      "slug": "le-pouvoir-de-l-education",
+      "title": "Le Pouvoir de l'Éducation : Libérer le Potentiel de Chaque Fille",
+      "summary": "Découvrez pourquoi l'équité en matière d'éducation est la pierre angulaire de mon plaidoyer et comment l'initiative 'Empower Her' fait une différence dans les communautés.",
+      "image": "https://images.unsplash.com/photo-1491841550275-5b462bf975db?q=80&w=2940&auto=format&fit=crop"
+    },
+    {
+      "slug": "mon-chemin-vers-la-couronne",
+      "title": "Mon Chemin vers la Couronne : Plus qu'un Simple Titre",
+      "summary": "Une réflexion personnelle sur le parcours vers la scène nationale, les défis surmontés et le but qui me pousse à avancer chaque jour.",
+      "image": "https://images.unsplash.com/photo-1528207776546-365bb710ee93?q=80&w=2848&auto=format&fit=crop"
+    },
+    {
+      "slug": "la-sante-mentale-compte",
+      "title": "La Santé Mentale Compte : Briser le Stigmate Ensemble",
+      "summary": "Rejoignez la conversation sur le bien-être mental. Je partage mon point de vue sur pourquoi il est crucial de créer une culture d'ouverture et de soutien.",
+      "image": "https://images.unsplash.com/photo-1598982249552-217c390d4c64?q=80&w=2940&auto=format&fit=crop"
+    }
+  ],
   "press_kit_page": {
     "meta_title": "Dossier de Presse | Aura Universe",
     "meta_description": "Accédez aux ressources médiatiques officielles de Camilla, y compris un dossier de presse téléchargeable, des photos haute résolution et les coordonnées des relations publiques.",

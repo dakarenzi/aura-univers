@@ -19,13 +19,13 @@ export function Footer() {
             Aura Universe
           </NavLink>
           <div className="flex justify-center space-x-6">
-            <a href="#" className="text-foreground/70 hover:text-brand-gold transition-colors">
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-foreground/70 hover:text-brand-gold transition-colors">
               <Instagram className="h-6 w-6" />
             </a>
-            <a href="#" className="text-foreground/70 hover:text-brand-gold transition-colors">
+            <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="text-foreground/70 hover:text-brand-gold transition-colors">
               <Youtube className="h-6 w-6" />
             </a>
-            <a href="#" className="text-foreground/70 hover:text-brand-gold transition-colors">
+            <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer" className="text-foreground/70 hover:text-brand-gold transition-colors">
               <TikTokIcon />
             </a>
           </div>

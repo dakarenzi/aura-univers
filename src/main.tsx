@@ -23,6 +23,7 @@ import { QAPage } from '@/pages/QAPage';
 import { HelmetProvider } from 'react-helmet-async';
 import { LanguageProvider } from './contexts/LanguageContext';
 import { PressKitPage } from './pages/PressKitPage';
+import { BlogPage } from './pages/BlogPage';
 const router = createBrowserRouter([
   {
     element: (
@@ -38,6 +39,7 @@ const router = createBrowserRouter([
       { path: "/videos", element: <VideosPage /> },
       { path: "/advocacy", element: <AdvocacyPage /> },
       { path: "/qa", element: <QAPage /> },
+      { path: "/blog", element: <BlogPage /> },
       { path: "/press-kit", element: <PressKitPage /> },
       { path: "/contact", element: <ContactPage /> },
     ]
