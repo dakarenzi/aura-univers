@@ -25,7 +25,6 @@ import { LanguageProvider } from './contexts/LanguageProvider';
 import { PressKitPage } from './pages/PressKitPage';
 import { BlogPage } from './pages/BlogPage';
 import { BlogPostPage } from './pages/BlogPostPage';
-import { ScrollToTop } from './components/ScrollToTop';
 const router = createBrowserRouter([
   {
     element: (
@@ -56,7 +55,6 @@ createRoot(document.getElementById('root')!).render(
         <ErrorBoundary>
           <RouterProvider router={router} />
           <Toaster />
-          <ScrollToTop />
         </ErrorBoundary>
       </HelmetProvider>
     </LanguageProvider>
