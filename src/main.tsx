@@ -18,6 +18,8 @@ import { ContactPage } from '@/pages/ContactPage';
 import { AppLayout } from '@/components/layout/AppLayout';
 import { AnimatedOutlet } from '@/components/AnimatedOutlet';
 import { Toaster } from '@/components/ui/sonner';
+import { AdvocacyPage } from '@/pages/AdvocacyPage';
+import { QAPage } from '@/pages/QAPage';
 const router = createBrowserRouter([
   {
     element: (
@@ -31,6 +33,8 @@ const router = createBrowserRouter([
       { path: "/about", element: <AboutPage /> },
       { path: "/gallery", element: <GalleryPage /> },
       { path: "/videos", element: <VideosPage /> },
+      { path: "/advocacy", element: <AdvocacyPage /> },
+      { path: "/qa", element: <QAPage /> },
       { path: "/contact", element: <ContactPage /> },
     ]
   }

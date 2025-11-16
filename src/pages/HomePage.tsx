@@ -27,7 +27,7 @@ export function HomePage() {
             transition={{ duration: 0.8, delay: 0.2, ease: 'easeOut' }}
             className="mt-4 text-lg md:text-xl max-w-2xl mx-auto text-brand-light/90"
           >
-            Embodying grace, intelligence, and determination. Discover the journey.
+            Embodying grace, intelligence, and determination. Discover Camilla's journey.
           </motion.p>
           <motion.div
             initial={{ opacity: 0, y: 20 }}

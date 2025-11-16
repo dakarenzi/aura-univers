@@ -1,5 +1,11 @@
 import { NavLink } from 'react-router-dom';
-import { Crown, Instagram, Twitter, Facebook } from 'lucide-react';
+import { Crown, Instagram, Youtube, Music } from 'lucide-react';
+const TikTokIcon = () => (
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-6 w-6">
+    <path d="M12.528 8.528A5.5 5.5 0 1 0 18 14v-1.5a2.5 2.5 0 1 1 2.5 2.5H18"/>
+    <path d="M12 18.5v-13"/>
+  </svg>
+);
 export function Footer() {
   return (
     <footer className="bg-background border-t border-brand-gold/20">
@@ -14,17 +20,17 @@ export function Footer() {
               <Instagram className="h-6 w-6" />
             </a>
             <a href="#" className="text-foreground/70 hover:text-brand-gold transition-colors">
-              <Twitter className="h-6 w-6" />
+              <Youtube className="h-6 w-6" />
             </a>
             <a href="#" className="text-foreground/70 hover:text-brand-gold transition-colors">
-              <Facebook className="h-6 w-6" />
+              <TikTokIcon />
             </a>
           </div>
           <p className="mt-4 text-center text-sm text-foreground/60">
             &copy; {new Date().getFullYear()} Aura Universe. All rights reserved.
           </p>
           <p className="text-center text-xs text-foreground/50">
-            Built with ��️ at Cloudflare
+            Built with ❤️ at Cloudflare
           </p>
         </div>
       </div>

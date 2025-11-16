@@ -3,7 +3,7 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { Label } from '@/components/ui/label';
-import { Instagram, Twitter, Facebook } from 'lucide-react';
+import { Instagram, Youtube } from 'lucide-react';
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { z } from 'zod';
@@ -14,6 +14,12 @@ const contactFormSchema = z.object({
   message: z.string().min(10, { message: "Message must be at least 10 characters." }),
 });
 type ContactFormValues = z.infer<typeof contactFormSchema>;
+const TikTokIcon = () => (
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-6 w-6 text-brand-gold">
+    <path d="M12.528 8.528A5.5 5.5 0 1 0 18 14v-1.5a2.5 2.5 0 1 1 2.5 2.5H18"/>
+    <path d="M12 18.5v-13"/>
+  </svg>
+);
 export function ContactPage() {
   const { register, handleSubmit, formState: { errors, isSubmitting }, reset } = useForm<ContactFormValues>({
     resolver: zodResolver(contactFormSchema),
@@ -72,10 +78,10 @@ export function ContactPage() {
                     <Instagram className="h-6 w-6 text-brand-gold" />
                   </a>
                   <a href="#" className="p-3 bg-brand-gold/10 rounded-full hover:bg-brand-gold/20 transition-colors">
-                    <Twitter className="h-6 w-6 text-brand-gold" />
+                    <Youtube className="h-6 w-6 text-brand-gold" />
                   </a>
                   <a href="#" className="p-3 bg-brand-gold/10 rounded-full hover:bg-brand-gold/20 transition-colors">
-                    <Facebook className="h-6 w-6 text-brand-gold" />
+                    <TikTokIcon />
                   </a>
                 </div>
                 <div className="pt-4">

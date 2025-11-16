@@ -10,6 +10,8 @@ const navLinks = [
   { name: 'About', path: '/about' },
   { name: 'Gallery', path: '/gallery' },
   { name: 'Videos', path: '/videos' },
+  { name: 'Advocacy', path: '/advocacy' },
+  { name: 'Q&A', path: '/qa' },
   { name: 'Contact', path: '/contact' },
 ];
 export function Header() {
