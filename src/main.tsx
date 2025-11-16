@@ -21,7 +21,7 @@ import { Toaster } from '@/components/ui/sonner';
 import { AdvocacyPage } from '@/pages/AdvocacyPage';
 import { QAPage } from '@/pages/QAPage';
 import { HelmetProvider } from 'react-helmet-async';
-import { LanguageProvider } from './contexts/LanguageContext';
+import { LanguageProvider } from './contexts/LanguageProvider';
 import { PressKitPage } from './pages/PressKitPage';
 import { BlogPage } from './pages/BlogPage';
 import { BlogPostPage } from './pages/BlogPostPage';
