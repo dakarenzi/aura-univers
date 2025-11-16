@@ -8,6 +8,7 @@ import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { z } from 'zod';
 import { toast } from 'sonner';
+import { PageMetadata } from '@/components/PageMetadata';
 const contactFormSchema = z.object({
   name: z.string().min(2, { message: "Name must be at least 2 characters." }),
   email: z.string().email({ message: "Please enter a valid email address." }),
@@ -35,6 +36,10 @@ export function ContactPage() {
   };
   return (
     <PageTransition>
+      <PageMetadata
+        title="Contact Me | Aura Universe"
+        description="Get in touch with Camilla for inquiries, collaborations, bookings, or media requests. Follow her journey on social media."
+      />
       <div className="bg-background text-foreground">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="py-24 md:py-32 lg:py-40">

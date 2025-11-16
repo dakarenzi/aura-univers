@@ -2,9 +2,14 @@ import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 import PageTransition from '@/components/PageTransition';
+import { PageMetadata } from '@/components/PageMetadata';
 export function HomePage() {
   return (
     <PageTransition>
+      <PageMetadata
+        title="Aura Universe | Home"
+        description="Welcome to the official portfolio of Camilla. Discover the journey of grace, intelligence, and determination of a Miss Universe contestant."
+      />
       <div className="relative min-h-screen flex items-center justify-center text-center overflow-hidden bg-brand-navy">
         <div
           className="absolute inset-0 bg-cover bg-center z-0 opacity-30"

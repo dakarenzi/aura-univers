@@ -1,6 +1,7 @@
 import PageTransition from '@/components/PageTransition';
 import { Card } from '@/components/ui/card';
 import { AspectRatio } from '@/components/ui/aspect-ratio';
+import { PageMetadata } from '@/components/PageMetadata';
 const videos = [
   { id: 'rokGy0huYEA', title: 'Miss Universe 2023 - RBonney Gabriel (USA) | Final Question' },
   { id: 'b-18vQwno-A', title: 'Miss Universe 2022 - FULL SHOW' },
@@ -10,6 +11,10 @@ const videos = [
 export function VideosPage() {
   return (
     <PageTransition>
+      <PageMetadata
+        title="Videos | Aura Universe"
+        description="Watch highlights from Camilla's interviews, campaigns, and performances. A collection of her most memorable video moments."
+      />
       <div className="bg-background text-foreground">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="py-24 md:py-32 lg:py-40">

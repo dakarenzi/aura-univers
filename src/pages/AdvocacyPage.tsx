@@ -2,6 +2,7 @@ import PageTransition from '@/components/PageTransition';
 import { Card } from '@/components/ui/card';
 import { Separator } from '@/components/ui/separator';
 import { BookOpen, BrainCircuit, HeartHandshake } from 'lucide-react';
+import { PageMetadata } from '@/components/PageMetadata';
 const advocacies = [
   {
     icon: <BookOpen className="h-10 w-10 text-brand-gold" />,
@@ -19,6 +20,10 @@ const advocacies = [
 export function AdvocacyPage() {
   return (
     <PageTransition>
+      <PageMetadata
+        title="My Advocacy | Aura Universe"
+        description="Learn about Camilla's advocacy work for educational equity and mental health awareness. Using her platform to create meaningful change."
+      />
       <div className="bg-background text-foreground">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="py-24 md:py-32 lg:py-40">

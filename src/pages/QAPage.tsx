@@ -5,6 +5,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion"
+import { PageMetadata } from '@/components/PageMetadata';
 const qaItems = [
   {
     question: "What does the Miss Universe title mean to you?",
@@ -30,6 +31,10 @@ const qaItems = [
 export function QAPage() {
   return (
     <PageTransition>
+      <PageMetadata
+        title="Q&A | Aura Universe"
+        description="Find answers to frequently asked questions about Camilla, her views on the Miss Universe title, her inspirations, and her message to the world."
+      />
       <div className="bg-background text-foreground">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="py-24 md:py-32 lg:py-40">

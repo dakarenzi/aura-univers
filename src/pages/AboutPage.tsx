@@ -2,9 +2,14 @@ import PageTransition from '@/components/PageTransition';
 import { Card } from '@/components/ui/card';
 import { Separator } from '@/components/ui/separator';
 import { AchievementsTimeline } from '@/components/AchievementsTimeline';
+import { PageMetadata } from '@/components/PageMetadata';
 export function AboutPage() {
   return (
     <PageTransition>
+      <PageMetadata
+        title="About Camilla | Aura Universe"
+        description="Learn about Camilla's journey, her passions, and the causes she champions. An insight into her biography, achievements, and advocacy work."
+      />
       <div className="bg-background text-foreground">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="py-24 md:py-32 lg:py-40">
