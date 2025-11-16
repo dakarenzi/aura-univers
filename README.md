@@ -1,6 +1,6 @@
 # Aura Universe: A Miss Universe Portfolio
 
-[cloudflarebutton]
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/dakarenzi/aura-univers)
 
 Aura Universe is a visually stunning, minimalist, and modern portfolio website designed for a Miss Universe contestant. The application is built with a mobile-first approach, ensuring a flawless experience on all devices. It features five key pages: a captivating Home page with a hero section, an elegant About page for biography and achievements, a beautiful grid-based Gallery for photos, a dedicated Videos page, and a functional Contact page. The design philosophy is 'less is more', emphasizing clean layouts, generous white space, a sophisticated and limited color palette, and elegant typography to create a feeling of luxury and grace.
 
@@ -85,7 +85,7 @@ This project is configured for easy deployment to Cloudflare Pages.
 
 Alternatively, you can deploy directly from your GitHub repository with a single click.
 
-[cloudflarebutton]
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/dakarenzi/aura-univers)
 
 ## License
 
