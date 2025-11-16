@@ -1,5 +1,5 @@
 import PageTransition from '@/components/PageTransition';
-import { Card, CardContent } from '@/components/ui/card';
+import { Card } from '@/components/ui/card';
 import { AspectRatio } from '@/components/ui/aspect-ratio';
 const videos = [
   { id: 'rokGy0huYEA', title: 'Miss Universe 2023 - RBonney Gabriel (USA) | Final Question' },
@@ -10,19 +10,19 @@ const videos = [
 export function VideosPage() {
   return (
     <PageTransition>
-      <div className="bg-brand-background text-brand-text">
+      <div className="bg-background text-foreground">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="py-16 md:py-24 lg:py-32">
+          <div className="py-24 md:py-32 lg:py-40">
             <div className="text-center mb-16">
               <h1 className="text-4xl md:text-5xl font-display font-bold">Vidéos</h1>
-              <p className="mt-4 text-lg text-brand-text/80 max-w-3xl mx-auto">
+              <p className="mt-4 text-lg text-foreground/80 max-w-3xl mx-auto">
                 Moments forts des interviews, campagnes et performances.
               </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
               {videos.map((video) => (
                 <div key={video.id}>
-                  <Card className="overflow-hidden border-brand-accent/20 shadow-lg">
+                  <Card className="overflow-hidden border-brand-gold/20 shadow-lg bg-card">
                     <AspectRatio ratio={16 / 9}>
                       <iframe
                         className="w-full h-full"
@@ -33,7 +33,7 @@ export function VideosPage() {
                       ></iframe>
                     </AspectRatio>
                   </Card>
-                  <h3 className="mt-4 text-lg font-semibold text-brand-text">{video.title}</h3>
+                  <h3 className="mt-4 text-lg font-semibold text-foreground">{video.title}</h3>
                 </div>
               ))}
             </div>

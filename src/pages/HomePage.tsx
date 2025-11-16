@@ -5,14 +5,14 @@ import PageTransition from '@/components/PageTransition';
 export function HomePage() {
   return (
     <PageTransition>
-      <div className="relative min-h-screen flex items-center justify-center text-center overflow-hidden">
+      <div className="relative min-h-screen flex items-center justify-center text-center overflow-hidden bg-brand-navy">
         <div
-          className="absolute inset-0 bg-cover bg-center z-0"
-          style={{ backgroundImage: "url('https://images.unsplash.com/photo-1599687488389-9370d5dba59a?q=80&w=2574&auto=format&fit=crop')" }}
+          className="absolute inset-0 bg-cover bg-center z-0 opacity-30"
+          style={{ backgroundImage: "url('https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?q=80&w=2940&auto=format&fit=crop')" }}
         >
-          <div className="absolute inset-0 bg-black/50" />
+          <div className="absolute inset-0 bg-gradient-to-t from-brand-navy via-brand-navy/50 to-transparent" />
         </div>
-        <div className="relative z-10 p-4 text-white">
+        <div className="relative z-10 p-4 text-brand-light">
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -25,7 +25,7 @@ export function HomePage() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2, ease: 'easeOut' }}
-            className="mt-4 text-lg md:text-xl max-w-2xl mx-auto text-white/90"
+            className="mt-4 text-lg md:text-xl max-w-2xl mx-auto text-brand-light/90"
           >
             Incarnant la grâce, l'intelligence et la détermination. Découvrez le parcours.
           </motion.p>
@@ -38,7 +38,7 @@ export function HomePage() {
             <Button
               asChild
               size="lg"
-              className="bg-brand-accent text-brand-text hover:bg-brand-accent/90 font-semibold px-8 py-6 text-lg transition-transform duration-200 hover:scale-105"
+              className="bg-brand-gold text-brand-navy hover:bg-brand-gold/90 font-semibold px-8 py-6 text-lg transition-transform duration-200 hover:scale-105"
             >
               <Link to="/about">Découvrez Mon Histoire</Link>
             </Button>

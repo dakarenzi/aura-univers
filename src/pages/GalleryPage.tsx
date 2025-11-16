@@ -20,12 +20,12 @@ export function GalleryPage() {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
   return (
     <PageTransition>
-      <div className="bg-brand-background text-brand-text">
+      <div className="bg-background text-foreground">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="py-16 md:py-24 lg:py-32">
+          <div className="py-24 md:py-32 lg:py-40">
             <div className="text-center mb-16">
               <h1 className="text-4xl md:text-5xl font-display font-bold">Galerie</h1>
-              <p className="mt-4 text-lg text-brand-text/80 max-w-3xl mx-auto">
+              <p className="mt-4 text-lg text-foreground/80 max-w-3xl mx-auto">
                 Une collection de moments capturés dans le temps.
               </p>
             </div>
@@ -33,7 +33,7 @@ export function GalleryPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 md:gap-6">
                 {images.map((src, index) => (
                   <DialogTrigger asChild key={index} onClick={() => setSelectedImage(src)}>
-                    <Card className="overflow-hidden cursor-pointer group border-brand-accent/20 hover:border-brand-accent/50 transition-all duration-300">
+                    <Card className="overflow-hidden cursor-pointer group border-brand-gold/20 hover:border-brand-gold/50 transition-all duration-300 bg-card">
                       <div className="aspect-w-1 aspect-h-1">
                         <img
                           src={src}

@@ -14,7 +14,7 @@ export default {
   				'sans-serif'
   			],
   			display: [
-  				'Cal Sans',
+  				'Playfair Display',
   				'Inter',
   				'system-ui',
   				'sans-serif'
@@ -91,9 +91,9 @@ export default {
   			sm: 'calc(var(--radius) - 4px)'
   		},
   		colors: {
-        'brand-background': 'var(--brand-background)',
-        'brand-text': 'var(--brand-text)',
-        'brand-accent': 'var(--brand-accent)',
+        'brand-light': 'hsl(var(--brand-light))',
+        'brand-navy': 'hsl(var(--brand-navy))',
+        'brand-gold': 'hsl(var(--brand-gold))',
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			muted: {
