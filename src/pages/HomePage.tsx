@@ -19,7 +19,7 @@ export function HomePage() {
             transition={{ duration: 0.8, ease: 'easeOut' }}
             className="text-5xl md:text-7xl lg:text-8xl font-display font-bold text-balance leading-tight"
           >
-            Aura of the Universe
+            L'Aura de l'Univers
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -27,7 +27,7 @@ export function HomePage() {
             transition={{ duration: 0.8, delay: 0.2, ease: 'easeOut' }}
             className="mt-4 text-lg md:text-xl max-w-2xl mx-auto text-white/90"
           >
-            Embodying grace, intelligence, and purpose. Discover the journey.
+            Incarnant la grâce, l'intelligence et la détermination. Découvrez le parcours.
           </motion.p>
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -40,7 +40,7 @@ export function HomePage() {
               size="lg"
               className="bg-brand-accent text-brand-text hover:bg-brand-accent/90 font-semibold px-8 py-6 text-lg transition-transform duration-200 hover:scale-105"
             >
-              <Link to="/about">Explore My Story</Link>
+              <Link to="/about">Découvrez Mon Histoire</Link>
             </Button>
           </motion.div>
         </div>

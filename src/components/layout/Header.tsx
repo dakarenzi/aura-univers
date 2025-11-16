@@ -5,10 +5,10 @@ import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 import { cn } from '@/lib/utils';
 const navLinks = [
-  { name: 'Home', path: '/' },
-  { name: 'About', path: '/about' },
-  { name: 'Gallery', path: '/gallery' },
-  { name: 'Videos', path: '/videos' },
+  { name: 'Accueil', path: '/' },
+  { name: 'À Propos', path: '/about' },
+  { name: 'Galerie', path: '/gallery' },
+  { name: 'Vidéos', path: '/videos' },
   { name: 'Contact', path: '/contact' },
 ];
 export function Header() {
@@ -57,7 +57,7 @@ export function Header() {
               <SheetTrigger asChild>
                 <Button variant="ghost" size="icon">
                   <Menu className="h-6 w-6" />
-                  <span className="sr-only">Open menu</span>
+                  <span className="sr-only">Ouvrir le menu</span>
                 </Button>
               </SheetTrigger>
               <SheetContent side="right" className="w-full sm:w-3/4 bg-brand-background">
@@ -68,7 +68,7 @@ export function Header() {
                     </NavLink>
                     <Button variant="ghost" size="icon" onClick={() => setIsMenuOpen(false)}>
                       <X className="h-6 w-6" />
-                      <span className="sr-only">Close menu</span>
+                      <span className="sr-only">Fermer le menu</span>
                     </Button>
                 </div>
                 <div className="p-4">
