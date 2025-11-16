@@ -1,7 +1,7 @@
 {
   "nav": {
     "home": "Accueil",
-    "about": "À Propos",
+    "about": "�� Propos",
     "gallery": "Galerie",
     "videos": "Vidéos",
     "advocacy": "Plaidoyer",
@@ -39,22 +39,26 @@
     {
       "year": "2024",
       "title": "Titre National de Miss Univers",
-      "description": "Couronnée représentante nationale, l'aboutissement d'années de dévouement et de travail acharné."
+      "description": "Couronnée représentante nationale, l'aboutissement d'années de dévouement et de travail acharné.",
+      "icon": "Crown"
     },
     {
       "year": "2023",
       "title": "Université d'Excellence, Liste du Doyen",
-      "description": "Atteinte de l'excellence académique en Relations Internationales, tout en équilibrant des études rigoureuses avec les préparations au concours."
+      "description": "Atteinte de l'excellence académique en Relations Internationales, tout en équilibrant des études rigoureuses avec les préparations au concours.",
+      "icon": "Award"
     },
     {
       "year": "2022",
       "title": "Fondatrice de l'initiative 'Empower Her'",
-      "description": "Lancement d'une organisation à but non lucratif dédiée à fournir des ressources éducatives aux filles défavorisées."
+      "description": "Lancement d'une organisation à but non lucratif dédiée à fournir des ressources éducatives aux filles défavorisées.",
+      "icon": "Heart"
     },
     {
       "year": "2021",
       "title": "Ambassadrice de Bonne Volonté pour la Santé des Enfants",
-      "description": "Partenariat avec des organisations mondiales de la santé pour plaider en faveur d'un meilleur accès aux soins pour les enfants des zones rurales."
+      "description": "Partenariat avec des organisations mondiales de la santé pour plaider en faveur d'un meilleur accès aux soins pour les enfants des zones rurales.",
+      "icon": "Star"
     }
   ],
   "gallery": {

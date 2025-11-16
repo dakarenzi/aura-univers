@@ -7,9 +7,10 @@ import {
 } from "@/components/ui/accordion"
 import { PageMetadata } from '@/components/PageMetadata';
 import { useTranslation } from '@/hooks/useTranslation';
+import { PageLoader } from '@/components/PageLoader';
 export function QAPage() {
   const { t, isLoading } = useTranslation();
-  if (isLoading) return null;
+  if (isLoading) return <PageLoader />;
   const qaItems = t('qa_page.items') || [];
   return (
     <PageTransition>

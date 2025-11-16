@@ -39,22 +39,26 @@
     {
       "year": "2024",
       "title": "National Miss Universe Title",
-      "description": "Crowned as the national representative, a culmination of years of dedication and hard work."
+      "description": "Crowned as the national representative, a culmination of years of dedication and hard work.",
+      "icon": "Crown"
     },
     {
       "year": "2023",
       "title": "University of Excellence, Dean's List",
-      "description": "Achieved academic excellence in International Relations, balancing rigorous studies with pageant preparations."
+      "description": "Achieved academic excellence in International Relations, balancing rigorous studies with pageant preparations.",
+      "icon": "Award"
     },
     {
       "year": "2022",
       "title": "Founder of 'Empower Her' Initiative",
-      "description": "Launched a non-profit organization dedicated to providing educational resources for underprivileged girls."
+      "description": "Launched a non-profit organization dedicated to providing educational resources for underprivileged girls.",
+      "icon": "Heart"
     },
     {
       "year": "2021",
       "title": "Goodwill Ambassador for Children's Health",
-      "description": "Partnered with global health organizations to advocate for better healthcare access for children in rural areas."
+      "description": "Partnered with global health organizations to advocate for better healthcare access for children in rural areas.",
+      "icon": "Star"
     }
   ],
   "gallery": {

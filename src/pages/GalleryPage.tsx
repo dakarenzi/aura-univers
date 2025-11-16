@@ -8,6 +8,7 @@ import {
 import { useState } from 'react';
 import { PageMetadata } from '@/components/PageMetadata';
 import { useTranslation } from '@/hooks/useTranslation';
+import { PageLoader } from '@/components/PageLoader';
 const images = [
   'https://images.unsplash.com/photo-1542596594-649ed6e6b342?q=80&w=2574&auto=format=fit=crop',
   'https://images.unsplash.com/photo-1508341591423-4347099e1f19?q=80&w=2574&auto=format=fit=crop',
@@ -21,7 +22,7 @@ const images = [
 export function GalleryPage() {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
   const { t, isLoading } = useTranslation();
-  if (isLoading) return null;
+  if (isLoading) return <PageLoader />;
   return (
     <PageTransition>
       <PageMetadata

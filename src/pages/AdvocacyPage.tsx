@@ -3,6 +3,7 @@ import { Card } from '@/components/ui/card';
 import { BookOpen, BrainCircuit } from 'lucide-react';
 import { PageMetadata } from '@/components/PageMetadata';
 import { useTranslation } from '@/hooks/useTranslation';
+import { PageLoader } from '@/components/PageLoader';
 const staticContent = [
   {
     icon: <BookOpen className="h-10 w-10 text-brand-gold" />,
@@ -15,7 +16,7 @@ const staticContent = [
 ];
 export function AdvocacyPage() {
   const { t, isLoading } = useTranslation();
-  if (isLoading) return null;
+  if (isLoading) return <PageLoader />;
   const advocacies = t('advocacy_page.items') || [];
   return (
     <PageTransition>

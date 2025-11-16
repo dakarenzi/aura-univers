@@ -3,9 +3,10 @@ import { Card } from '@/components/ui/card';
 import { AspectRatio } from '@/components/ui/aspect-ratio';
 import { PageMetadata } from '@/components/PageMetadata';
 import { useTranslation } from '@/hooks/useTranslation';
+import { PageLoader } from '@/components/PageLoader';
 export function VideosPage() {
   const { t, isLoading } = useTranslation();
-  if (isLoading) return null;
+  if (isLoading) return <PageLoader />;
   const videos = t('videos.items') || [];
   return (
     <PageTransition>

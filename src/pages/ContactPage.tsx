@@ -11,6 +11,7 @@ import { toast } from 'sonner';
 import { PageMetadata } from '@/components/PageMetadata';
 import { useTranslation } from '@/hooks/useTranslation';
 import { useEffect } from 'react';
+import { PageLoader } from '@/components/PageLoader';
 const getContactFormSchema = (t: (key: string) => string) => z.object({
   name: z.string().min(2, { message: t('contact.validation.name_required') }),
   email: z.string().email({ message: t('contact.validation.email_invalid') }),
@@ -40,7 +41,7 @@ export function ContactPage() {
     });
     reset();
   };
-  if (isLoading) return null;
+  if (isLoading) return <PageLoader />;
   return (
     <PageTransition>
       <PageMetadata

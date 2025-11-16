@@ -4,9 +4,10 @@ import { Separator } from '@/components/ui/separator';
 import { AchievementsTimeline } from '@/components/AchievementsTimeline';
 import { PageMetadata } from '@/components/PageMetadata';
 import { useTranslation } from '@/hooks/useTranslation';
+import { PageLoader } from '@/components/PageLoader';
 export function AboutPage() {
   const { t, isLoading } = useTranslation();
-  if (isLoading) return null; // Or a loading skeleton
+  if (isLoading) return <PageLoader />;
   return (
     <PageTransition>
       <PageMetadata
