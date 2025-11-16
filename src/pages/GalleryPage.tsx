@@ -45,11 +45,9 @@ export function GalleryPage() {
                   </DialogTrigger>
                 ))}
               </div>
-              {selectedImage && (
-                <DialogContent className="max-w-4xl p-0 border-0 bg-transparent">
-                  <img src={selectedImage} alt="Enlarged view" className="w-full h-auto rounded-lg" />
-                </DialogContent>
-              )}
+              <DialogContent className="max-w-4xl p-0 border-0 bg-transparent">
+                {selectedImage && <img src={selectedImage} alt="Enlarged view" className="w-full h-auto rounded-lg" />}
+              </DialogContent>
             </Dialog>
           </div>
         </div>
