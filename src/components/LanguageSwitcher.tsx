@@ -5,7 +5,7 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
-import { useLanguage } from "@/hooks/useLanguage"
+import { useLanguage } from "@/contexts/LanguageContext"
 import { Languages } from "lucide-react"
 export function LanguageSwitcher() {
   const { language, setLanguage } = useLanguage()

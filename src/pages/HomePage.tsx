@@ -3,12 +3,26 @@ import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 import PageTransition from '@/components/PageTransition';
 import { PageMetadata } from '@/components/PageMetadata';
+import { useTranslation } from '@/hooks/useTranslation';
+import { Skeleton } from '@/components/ui/skeleton';
 export function HomePage() {
+  const { t, isLoading } = useTranslation();
+  if (isLoading) {
+    return (
+      <div className="relative min-h-screen flex items-center justify-center text-center overflow-hidden bg-brand-navy">
+        <div className="relative z-10 p-4 space-y-4">
+          <Skeleton className="h-20 w-[600px] mx-auto" />
+          <Skeleton className="h-6 w-[400px] mx-auto" />
+          <Skeleton className="h-16 w-52 mx-auto mt-4" />
+        </div>
+      </div>
+    );
+  }
   return (
     <PageTransition>
       <PageMetadata
-        title="Aura Universe | Accueil"
-        description="Bienvenue sur le portfolio officiel de Camilla. Découvrez le parcours de grâce, d'intelligence et de détermination d'une candidate à Miss Univers."
+        title={t('home.meta_title')}
+        description={t('home.meta_description')}
       />
       <div className="relative min-h-screen flex items-center justify-center text-center overflow-hidden bg-brand-navy">
         <div
@@ -24,7 +38,7 @@ export function HomePage() {
             transition={{ duration: 0.8, ease: 'easeOut' }}
             className="text-5xl md:text-7xl lg:text-8xl font-display font-bold text-balance leading-tight"
           >
-            L'Aura de l'Univers
+            {t('home.title')}
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -32,7 +46,7 @@ export function HomePage() {
             transition={{ duration: 0.8, delay: 0.2, ease: 'easeOut' }}
             className="mt-4 text-lg md:text-xl max-w-2xl mx-auto text-brand-light/90"
           >
-            Incarnant la grâce, l'intelligence et la détermination. Découvrez le parcours de Camilla.
+            {t('home.subtitle')}
           </motion.p>
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -45,7 +59,7 @@ export function HomePage() {
               size="lg"
               className="bg-brand-gold text-brand-navy hover:bg-brand-gold/90 font-semibold px-8 py-6 text-lg transition-transform duration-200 hover:scale-105"
             >
-              <Link to="/about">Découvrez Mon Histoire</Link>
+              <Link to="/about">{t('home.cta')}</Link>
             </Button>
           </motion.div>
         </div>

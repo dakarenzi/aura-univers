@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { useLanguage } from '@/hooks/useLanguage';
+import { useLanguage } from '@/contexts/LanguageContext';
 // A simple key-value pair object for translations
 type Translations = { [key: string]: any };
 const getDescendantProp = (obj: Translations, desc: string): any => {
@@ -15,14 +15,7 @@ export const useTranslation = () => {
     const loadTranslations = async () => {
       setIsLoading(true);
       try {
-        // Vite does not support fully dynamic imports with variables like `../locales/${language}.json`
-        // We must use a more static path for Vite's bundler to detect the files.
-        let module;
-        if (language === 'fr') {
-          module = await import(`../locales/fr.json`);
-        } else {
-          module = await import(`../locales/en.json`);
-        }
+        const module = await import(`../locales/${language}.json`);
         setTranslations(module.default);
       } catch (error) {
         console.error(`Could not load translations for language: ${language}`, error);

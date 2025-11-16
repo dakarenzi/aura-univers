@@ -1,5 +1,6 @@
 import { NavLink } from 'react-router-dom';
 import { Crown, Instagram, Youtube } from 'lucide-react';
+import { useTranslation } from '@/hooks/useTranslation';
 const TikTokIcon = () => (
   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-6 w-6">
     <path d="M12.528 8.528A5.5 5.5 0 1 0 18 14v-1.5a2.5 2.5 0 1 1 2.5 2.5H18"/>
@@ -7,6 +8,8 @@ const TikTokIcon = () => (
   </svg>
 );
 export function Footer() {
+  const { t, isLoading } = useTranslation();
+  if (isLoading) return null;
   return (
     <footer className="bg-background border-t border-brand-gold/20">
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
@@ -27,10 +30,10 @@ export function Footer() {
             </a>
           </div>
           <p className="mt-4 text-center text-sm text-foreground/60">
-            &copy; {new Date().getFullYear()} Aura Universe. Tous droits réservés.
+            &copy; {new Date().getFullYear()} Aura Universe. {t('footer.copyright')}
           </p>
           <p className="text-center text-xs text-foreground/50">
-            Construit avec ❤️ chez Cloudflare
+            {t('footer.credit')}
           </p>
         </div>
       </div>

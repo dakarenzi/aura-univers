@@ -6,8 +6,6 @@
     "videos": "Videos",
     "advocacy": "Advocacy",
     "qa": "Q&A",
-    "blog": "Blog",
-    "press_kit": "Press Kit",
     "contact": "Contact"
   },
   "header": {
@@ -19,12 +17,7 @@
     "meta_description": "Welcome to the official portfolio of Camilla. Discover the journey of grace, intelligence, and determination of a Miss Universe contestant.",
     "title": "The Aura of the Universe",
     "subtitle": "Embodying grace, intelligence, and determination. Discover Camilla's journey.",
-    "cta": "Discover My Story",
-    "blog_section": {
-      "title": "From the Blog",
-      "subtitle": "Insights, stories, and updates from my journey.",
-      "view_all": "View All Posts"
-    }
+    "cta": "Discover My Story"
   },
   "about": {
     "meta_title": "About Camilla | Aura Universe",
@@ -46,26 +39,22 @@
     {
       "year": "2024",
       "title": "National Miss Universe Title",
-      "description": "Crowned as the national representative, a culmination of years of dedication and hard work.",
-      "icon": "Crown"
+      "description": "Crowned as the national representative, a culmination of years of dedication and hard work."
     },
     {
       "year": "2023",
       "title": "University of Excellence, Dean's List",
-      "description": "Achieved academic excellence in International Relations, balancing rigorous studies with pageant preparations.",
-      "icon": "Award"
+      "description": "Achieved academic excellence in International Relations, balancing rigorous studies with pageant preparations."
     },
     {
       "year": "2022",
       "title": "Founder of 'Empower Her' Initiative",
-      "description": "Launched a non-profit organization dedicated to providing educational resources for underprivileged girls.",
-      "icon": "Heart"
+      "description": "Launched a non-profit organization dedicated to providing educational resources for underprivileged girls."
     },
     {
       "year": "2021",
       "title": "Goodwill Ambassador for Children's Health",
-      "description": "Partnered with global health organizations to advocate for better healthcare access for children in rural areas.",
-      "icon": "Star"
+      "description": "Partnered with global health organizations to advocate for better healthcare access for children in rural areas."
     }
   ],
   "gallery": {
@@ -82,10 +71,10 @@
     "title": "Videos",
     "subtitle": "Highlights from interviews, campaigns, and performances.",
     "items": [
-      { "id": "d1a2b3c4e5f6a7b8c9d0e1f2a3b4c5d6", "title": "Journey to the Crown: A Documentary" },
-      { "id": "e6f5d4c3b2a1f0e9d8c7b6a5f4e3d2c1", "title": "Advocacy in Action: Empower Her Initiative" },
-      { "id": "a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6", "title": "A Conversation on Global Issues" },
-      { "id": "f6e5d4c3b2a1f0e9d8c7b6a5f4e3d2c1", "title": "Behind the Scenes: The Final Night" }
+      { "id": "rokGy0huYEA", "title": "Miss Universe 2023 - RBonney Gabriel (USA) | Final Question" },
+      { "id": "b-18vQwno-A", "title": "Miss Universe 2022 - FULL SHOW" },
+      { "id": "Z8l3h_5A4eE", "title": "Miss Universe 2021 - Harnaaz Sandhu (India) | Final Question" },
+      { "id": "UryjCzSeMXE", "title": "Miss Universe 2020 - Andrea Meza (Mexico) | Final Question" }
     ]
   },
   "advocacy_page": {
@@ -131,51 +120,6 @@
         "answer": "'Beauty with a purpose' means using one's visibility and influence for the greater good. It's about recognizing that true beauty lies in our actions, our empathy, and our commitment to leaving the world a better place than we found it. It's about service, substance, and impact."
       }
     ]
-  },
-  "blog_page": {
-    "meta_title": "Blog | Aura Universe",
-    "meta_description": "Read the latest articles, stories, and updates from Camilla's journey. Insights on advocacy, personal growth, and the world of Miss Universe.",
-    "title": "From the Blog",
-    "subtitle": "A collection of stories, insights, and updates from my journey.",
-    "read_more": "Read More",
-    "back_to_blog": "Back to Blog"
-  },
-  "blog_posts": [
-    {
-      "slug": "the-power-of-education",
-      "title": "The Power of Education: Unlocking Potential in Every Girl",
-      "summary": "Discover why educational equity is the cornerstone of my advocacy and how the 'Empower Her' initiative is making a difference in communities.",
-      "image": "https://images.unsplash.com/photo-1491841550275-5b462bf975db?q=80&w=2940&auto=format&fit=crop",
-      "content": "Education is more than just learning to read and write; it is the most powerful weapon which you can use to change the world. For millions of girls around the globe, however, this fundamental right remains a distant dream. This is not just a loss for them, but a loss for all of us. When a girl is educated, she is empowered. She can make informed decisions about her health, her family, and her future. She can break the cycle of poverty and contribute to the economic growth of her community and her nation.\nMy 'Empower Her' initiative was born from this conviction. We work on the ground, providing scholarships, building safe learning environments, and mentoring young women to become the leaders of tomorrow. We've seen firsthand how a single scholarship can transform a life, and how a safe classroom can become a sanctuary for dreams to flourish. The journey is long, but every girl we reach is a step towards a more just and equitable world."
-    },
-    {
-      "slug": "my-journey-to-the-crown",
-      "title": "My Journey to the Crown: More Than Just a Title",
-      "summary": "A personal reflection on the path to the national stage, the challenges overcome, and the purpose that drives me forward every day.",
-      "image": "https://images.unsplash.com/photo-1528207776546-365bb710ee93?q=80&w=2848&auto=format&fit=crop",
-      "content": "Many see the crown, the sash, the glamorous gowns. But my journey to this stage has been paved with moments of self-doubt, relentless hard work, and an unwavering belief in my purpose. It began not with a desire for recognition, but with a deep-seated need to make a tangible difference. The early mornings, the endless hours of preparation, the sacrifices—they were all fueled by the vision of a platform from which I could speak for those who could not.\nThere were times when the pressure felt overwhelming, when the criticism was sharp. In those moments, I leaned on my family, my mentors, and the stories of the people I aim to serve. They reminded me that this was not about me. It was about the causes I represent, the change I hope to inspire. This title is not the destination; it is the beginning of a new, more impactful chapter of service."
-    },
-    {
-      "slug": "mental-health-matters",
-      "title": "Mental Health Matters: Breaking the Stigma Together",
-      "summary": "Join the conversation on mental well-being. I share my perspective on why it's crucial to create a culture of openness and support.",
-      "image": "https://images.unsplash.com/photo-1598982249552-217c390d4c64?q=80&w=2940&auto=format&fit=crop",
-      "content": "In a world that often demands perfection, it is more important than ever to talk about our mental health. For too long, conversations about anxiety, depression, and mental well-being have been shrouded in silence and stigma. This silence is dangerous. It prevents people from seeking the help they need and deserve. It creates a culture where suffering in silence is seen as a sign of strength, when in fact, the opposite is true. True strength lies in vulnerability, in reaching out, and in supporting one another.\nWe must normalize these conversations in our homes, schools, and workplaces. We must advocate for better access to mental healthcare and create communities where empathy and understanding are the norms. My own journey has taught me the importance of self-care and seeking support. It's okay not to be okay, but it's not okay to suffer alone. Let's break the stigma, together."
-    }
-  ],
-  "press_kit_page": {
-    "meta_title": "Press Kit | Aura Universe",
-    "meta_description": "Access official media resources for Camilla, including a downloadable press kit, high-resolution photos, and public relations contact information.",
-    "title": "Press Kit",
-    "subtitle": "Official resources for media, press, and partnership inquiries.",
-    "download_title": "Download Full Press Kit",
-    "download_description": "Our comprehensive press kit includes a detailed biography, official headshots, and information about my advocacy work. Available in PDF format.",
-    "download_cta": "Download PDF",
-    "photos_title": "Media Photos",
-    "photo_alt": "Media photo of Camilla",
-    "contact_title": "Public Relations Contact",
-    "contact_description": "For all media inquiries, interview requests, or booking information, please contact my public relations team.",
-    "contact_email": "pr@aurauniverse.com"
   },
   "contact": {
     "meta_title": "Contact Me | Aura Universe",

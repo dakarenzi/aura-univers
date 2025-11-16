@@ -5,17 +5,23 @@ import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 import { cn } from '@/lib/utils';
 import { ThemeToggle } from '@/components/ThemeToggle';
-const navLinks = [
-  { name: 'Accueil', path: '/' },
-  { name: 'À Propos', path: '/about' },
-  { name: 'Galerie', path: '/gallery' },
-  { name: 'Vidéos', path: '/videos' },
-  { name: 'Plaidoyer', path: '/advocacy' },
-  { name: 'Q&R', path: '/qa' },
-  { name: 'Contact', path: '/contact' },
+import { useTranslation } from '@/hooks/useTranslation';
+import { LanguageSwitcher } from '../LanguageSwitcher';
+const navPaths = [
+  { key: 'home', path: '/' },
+  { key: 'about', path: '/about' },
+  { key: 'gallery', path: '/gallery' },
+  { key: 'videos', path: '/videos' },
+  { key: 'advocacy', path: '/advocacy' },
+  { key: 'qa', path: '/qa' },
+  { key: 'contact', path: '/contact' },
 ];
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const { t, isLoading } = useTranslation();
+  if (isLoading) {
+    return null; // Or a loading skeleton for the header
+  }
   const NavLinksContent = ({ isMobile = false }: { isMobile?: boolean }) => (
     <nav
       className={cn(
@@ -23,7 +29,7 @@ export function Header() {
         isMobile ? 'flex-col space-y-4 pt-8' : 'hidden md:flex'
       )}
     >
-      {navLinks.map((link) => (
+      {navPaths.map((link) => (
         <NavLink
           key={link.path}
           to={link.path}
@@ -39,7 +45,7 @@ export function Header() {
             )
           }
         >
-          {link.name}
+          {t(`nav.${link.key}`)}
         </NavLink>
       ))}
     </nav>
@@ -55,13 +61,16 @@ export function Header() {
           <div className="hidden md:flex items-center gap-2">
             <NavLinksContent />
             <ThemeToggle />
+            <LanguageSwitcher />
           </div>
-          <div className="md:hidden">
+          <div className="md:hidden flex items-center">
+            <ThemeToggle />
+            <LanguageSwitcher />
             <Sheet open={isMenuOpen} onOpenChange={setIsMenuOpen}>
               <SheetTrigger asChild>
                 <Button variant="ghost" size="icon">
                   <Menu className="h-6 w-6" />
-                  <span className="sr-only">Ouvrir le menu</span>
+                  <span className="sr-only">{t('header.open_menu')}</span>
                 </Button>
               </SheetTrigger>
               <SheetContent side="right" className="w-full sm:w-3/4 bg-background">
@@ -72,14 +81,11 @@ export function Header() {
                     </NavLink>
                     <Button variant="ghost" size="icon" onClick={() => setIsMenuOpen(false)}>
                       <X className="h-6 w-6" />
-                      <span className="sr-only">Fermer le menu</span>
+                      <span className="sr-only">{t('header.close_menu')}</span>
                     </Button>
                 </div>
                 <div className="p-4">
                   <NavLinksContent isMobile />
-                  <div className="mt-8 flex justify-center">
-                    <ThemeToggle />
-                  </div>
                 </div>
               </SheetContent>
             </Sheet>

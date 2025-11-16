@@ -21,6 +21,7 @@ import { Toaster } from '@/components/ui/sonner';
 import { AdvocacyPage } from '@/pages/AdvocacyPage';
 import { QAPage } from '@/pages/QAPage';
 import { HelmetProvider } from 'react-helmet-async';
+import { LanguageProvider } from './contexts/LanguageContext';
 const router = createBrowserRouter([
   {
     element: (
@@ -43,11 +44,13 @@ const router = createBrowserRouter([
 // Do not touch this code
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <HelmetProvider>
-      <ErrorBoundary>
-        <RouterProvider router={router} />
-        <Toaster />
-      </ErrorBoundary>
-    </HelmetProvider>
+    <LanguageProvider>
+      <HelmetProvider>
+        <ErrorBoundary>
+          <RouterProvider router={router} />
+          <Toaster />
+        </ErrorBoundary>
+      </HelmetProvider>
+    </LanguageProvider>
   </StrictMode>,
 )

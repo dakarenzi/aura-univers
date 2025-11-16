@@ -7,6 +7,7 @@ import {
 } from "@/components/ui/dialog"
 import { useState } from 'react';
 import { PageMetadata } from '@/components/PageMetadata';
+import { useTranslation } from '@/hooks/useTranslation';
 const images = [
   'https://images.unsplash.com/photo-1542596594-649ed6e6b342?q=80&w=2574&auto=format=fit=crop',
   'https://images.unsplash.com/photo-1508341591423-4347099e1f19?q=80&w=2574&auto=format=fit=crop',
@@ -19,19 +20,21 @@ const images = [
 ];
 export function GalleryPage() {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
+  const { t, isLoading } = useTranslation();
+  if (isLoading) return null;
   return (
     <PageTransition>
       <PageMetadata
-        title="Galerie | Aura Universe"
-        description="Explorez une collection de moments du parcours de Camilla. Un portfolio visuel de séances photo professionnelles et d'événements."
+        title={t('gallery.meta_title')}
+        description={t('gallery.meta_description')}
       />
       <div className="bg-background text-foreground">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="py-24 md:py-32 lg:py-40">
             <div className="text-center mb-16">
-              <h1 className="text-4xl md:text-5xl font-display font-bold">Galerie</h1>
+              <h1 className="text-4xl md:text-5xl font-display font-bold">{t('gallery.title')}</h1>
               <p className="mt-4 text-lg text-foreground/80 max-w-3xl mx-auto">
-                Une collection de moments figés dans le temps.
+                {t('gallery.subtitle')}
               </p>
             </div>
             <Dialog>
@@ -42,7 +45,7 @@ export function GalleryPage() {
                       <Card className="overflow-hidden cursor-pointer group border-brand-gold/20 hover:border-brand-gold/50 transition-all duration-300 bg-card">
                         <img
                           src={src}
-                          alt={`Image de la galerie ${index + 1}`}
+                          alt={`${t('gallery.image_alt')} ${index + 1}`}
                           className="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-300"
                         />
                       </Card>
@@ -51,7 +54,7 @@ export function GalleryPage() {
                 ))}
               </div>
               <DialogContent className="max-w-4xl p-0 border-0 bg-transparent">
-                {selectedImage && <img src={selectedImage} alt="Vue agrandie" className="w-full h-auto rounded-lg" />}
+                {selectedImage && <img src={selectedImage} alt={t('gallery.enlarged_alt')} className="w-full h-auto rounded-lg" />}
               </DialogContent>
             </Dialog>
           </div>
