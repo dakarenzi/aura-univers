@@ -1,0 +1,209 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "À Propos",
+    "gallery": "Galerie",
+    "videos": "Vidéos",
+    "advocacy": "Plaidoyer",
+    "qa": "Q&R",
+    "blog": "Blog",
+    "press_kit": "Dossier de Presse",
+    "contact": "Contact"
+  },
+  "header": {
+    "open_menu": "Ouvrir le menu",
+    "close_menu": "Fermer le menu"
+  },
+  "home": {
+    "meta_title": "Aura Universe | Accueil",
+    "meta_description": "Bienvenue sur le portfolio officiel de Camilla. Découvrez le parcours de grâce, d'intelligence et de détermination d'une candidate à Miss Univers.",
+    "title": "L'Aura de l'Univers",
+    "subtitle": "Incarnant la grâce, l'intelligence et la détermination. Découvrez le parcours de Camilla.",
+    "cta": "Découvrez Mon Histoire",
+    "blog_section": {
+      "title": "Du Blog",
+      "subtitle": "Réflexions, histoires et actualités de mon parcours.",
+      "view_all": "Voir Tous les Articles"
+    }
+  },
+  "about": {
+    "meta_title": "À Propos de Camilla | Aura Universe",
+    "meta_description": "Découvrez le parcours de Camilla, ses passions et les causes qu'elle défend. Un aperçu de sa biographie, de ses réalisations et de son travail de plaidoyer.",
+    "title": "À Propos de Camilla",
+    "subtitle": "Un aperçu de mon parcours, de mes passions et des causes que je défends.",
+    "journey_title": "Mon Parcours",
+    "journey_p1": "Originaire d'une petite ville aux grands rêves, mon chemin a été celui d'une quête incessante de connaissance, de but et d'impact positif. Mon parcours dans le monde des concours de beauté n'a pas commencé comme une quête pour une couronne, mais comme la recherche d'une plateforme pour amplifier la voix des sans-voix et pour défendre les causes qui me sont chères.",
+    "journey_p2": "En étudiant les Relations Internationales, j'ai développé une compréhension approfondie des défis mondiaux auxquels nous sommes confrontés et de l'interconnexion de notre monde. Cette formation académique nourrit ma passion pour le plaidoyer, me fournissant les outils pour analyser des problèmes complexes et œuvrer à des solutions durables.",
+    "advocacy_title": "Plaidoyer & Passion",
+    "advocacy_p1": "Ma mission principale est de plaider pour une éducation de qualité et la sensibilisation à la santé mentale. À travers mon initiative 'Empower Her', je m'efforce de démanteler les barrières qui empêchent les jeunes femmes d'accéder à l'éducation. Je crois qu'une femme éduquée a le pouvoir d'élever toute sa communauté.",
+    "advocacy_p2": "Parallèlement, je suis une fervente avocate de la déstigmatisation des conversations sur la santé mentale. En partageant des histoires et en promouvant des ressources, je vise à créer un monde où chercher de l'aide pour son bien-être mental est considéré comme un signe de force, et non de faiblesse.",
+    "achievements_title": "Mes Réalisations",
+    "achievements_subtitle": "Une chronologie des étapes clés de mon parcours jusqu'à présent.",
+    "portrait_alt_1": "Portrait de Camilla",
+    "portrait_alt_2": "Second portrait de Camilla"
+  },
+  "achievements": [
+    {
+      "year": "2024",
+      "title": "Titre National de Miss Univers",
+      "description": "Couronnée représentante nationale, l'aboutissement d'années de dévouement et de travail acharné.",
+      "icon": "Crown"
+    },
+    {
+      "year": "2023",
+      "title": "Université d'Excellence, Liste du Doyen",
+      "description": "Atteinte de l'excellence académique en Relations Internationales, tout en équilibrant des études rigoureuses avec les préparations au concours.",
+      "icon": "Award"
+    },
+    {
+      "year": "2022",
+      "title": "Fondatrice de l'initiative 'Empower Her'",
+      "description": "Lancement d'une organisation à but non lucratif dédiée à fournir des ressources éducatives aux filles défavorisées.",
+      "icon": "Heart"
+    },
+    {
+      "year": "2021",
+      "title": "Ambassadrice de Bonne Volonté pour la Santé des Enfants",
+      "description": "Partenariat avec des organisations mondiales de la santé pour plaider en faveur d'un meilleur accès aux soins pour les enfants des zones rurales.",
+      "icon": "Star"
+    }
+  ],
+  "gallery": {
+    "meta_title": "Galerie | Aura Universe",
+    "meta_description": "Explorez une collection de moments du parcours de Camilla. Un portfolio visuel de séances photo professionnelles et d'événements.",
+    "title": "Galerie",
+    "subtitle": "Une collection de moments figés dans le temps.",
+    "image_alt": "Image de la galerie",
+    "enlarged_alt": "Vue agrandie"
+  },
+  "videos": {
+    "meta_title": "Vidéos | Aura Universe",
+    "meta_description": "Regardez les moments forts des interviews, campagnes et performances de Camilla. Une collection de ses moments vidéo les plus mémorables.",
+    "title": "Vidéos",
+    "subtitle": "Moments forts des interviews, campagnes et performances.",
+    "items": [
+      { "id": "d1a2b3c4e5f6a7b8c9d0e1f2a3b4c5d6", "title": "Le chemin vers la couronne : Un documentaire" },
+      { "id": "e6f5d4c3b2a1f0e9d8c7b6a5f4e3d2c1", "title": "Le plaidoyer en action : Initiative Empower Her" },
+      { "id": "a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6", "title": "Une conversation sur les enjeux mondiaux" },
+      { "id": "f6e5d4c3b2a1f0e9d8c7b6a5f4e3d2c1", "title": "Dans les coulisses : La soirée finale" }
+    ]
+  },
+  "advocacy_page": {
+    "meta_title": "Mon Plaidoyer | Aura Universe",
+    "meta_description": "Découvrez le travail de plaidoyer de Camilla pour l'équité éducative et la sensibilisation à la santé mentale. Utiliser sa plateforme pour créer un changement significatif.",
+    "title": "Mon Plaidoyer",
+    "subtitle": "Utiliser ma plateforme pour créer un changement significatif et élever les communautés.",
+    "items": [
+      {
+        "title": "Équité Éducative pour les Femmes",
+        "description": "Défendre le droit à l'éducation pour chaque fille et femme. Mon initiative 'Empower Her' offre des bourses, du mentorat et des ressources pour aider les jeunes femmes des communautés défavorisées à réaliser leurs rêves académiques et professionnels. Je crois que l'éducation est la clé pour libérer le potentiel et briser les cycles de pauvreté."
+      },
+      {
+        "title": "Sensibilisation à la Santé Mentale",
+        "description": "Dédiée à la déstigmatisation de la santé mentale et à la promotion de ressources accessibles. Je travaille avec des organisations pour créer des espaces de dialogue s��rs, partager des histoires poignantes de rétablissement et plaider pour des politiques qui intègrent les soins de santé mentale dans nos communautés et nos écoles. Votre bien-être mental est important."
+      }
+    ]
+  },
+  "qa_page": {
+    "meta_title": "Q&R | Aura Universe",
+    "meta_description": "Trouvez les réponses aux questions fréquemment posées sur Camilla, ses opinions sur le titre de Miss Univers, ses inspirations et son message au monde.",
+    "title": "Q&R",
+    "subtitle": "Réponses à certaines de vos questions les plus fréquentes.",
+    "items": [
+      {
+        "question": "Que signifie le titre de Miss Univers pour vous ?",
+        "answer": "Pour moi, le titre de Miss Univers n'est pas seulement une couronne ; c'est un micro. Il représente une plateforme puissante pour amplifier des conversations mondiales importantes, pour me connecter avec des gens de tous horizons et pour agir de manière significative sur les causes qui me passionnent, comme l'équité en matière d'éducation et la sensibilisation à la santé mentale."
+      },
+      {
+        "question": "Comment gérez-vous la pression de la compétition ?",
+        "answer": "Je gère la pression en restant ancrée dans mon objectif. Je me rappelle pourquoi j'ai commencé ce voyage : pour faire une différence. La pratique de la pleine conscience, le maintien d'un solide système de soutien familial et amical, et la concentration sur ma croissance personnelle plutôt que sur le simple résultat sont des éléments essentiels de ma routine."
+      },
+      {
+        "question": "Quelle est votre plus grande source d'inspiration ?",
+        "answer": "Ma plus grande inspiration vient de la résilience et de la force des jeunes femmes que je rencontre à travers mon travail de plaidoyer. Leur détermination à surmonter des obstacles incroyables pour poursuivre leurs études et leurs rêves alimente ma propre motivation et me rappelle l'impact profond que nous pouvons avoir les uns sur les autres."
+      },
+      {
+        "question": "Quel message aimeriez-vous partager avec les jeunes filles du monde entier ?",
+        "answer": "Je veux que chaque jeune fille sache que sa voix a du pouvoir et que ses rêves sont valides. N'ayez pas peur d'être ambitieuse, d'être intelligente et d'être compatissante. Acceptez vos qualités uniques, car ce sont vos plus grandes forces. Ne sous-estimez jamais le changement que vous pouvez créer dans le monde."
+      },
+      {
+        "question": "Comment définissez-vous la 'beauté avec un but' ?",
+        "answer": "'La beauté avec un but' signifie utiliser sa visibilité et son influence pour le bien commun. Il s'agit de reconnaître que la vraie beauté réside dans nos actions, notre empathie et notre engagement à laisser le monde meilleur que nous ne l'avons trouvé. C'est une question de service, de substance et d'impact."
+      }
+    ]
+  },
+  "blog_page": {
+    "meta_title": "Blog | Aura Universe",
+    "meta_description": "Lisez les derniers articles, histoires et actualités du parcours de Camilla. Réflexions sur le plaidoyer, la croissance personnelle et le monde de Miss Univers.",
+    "title": "Du Blog",
+    "subtitle": "Une collection d'histoires, de réflexions et d'actualités de mon parcours.",
+    "read_more": "Lire la Suite",
+    "back_to_blog": "Retour au Blog"
+  },
+  "blog_posts": [
+    {
+      "slug": "le-pouvoir-de-l-education",
+      "title": "Le Pouvoir de l'Éducation : Libérer le Potentiel de Chaque Fille",
+      "summary": "Découvrez pourquoi l'équité en matière d'éducation est la pierre angulaire de mon plaidoyer et comment l'initiative 'Empower Her' fait une différence dans les communautés.",
+      "image": "https://images.unsplash.com/photo-1491841550275-5b462bf975db?q=80&w=2940&auto=format&fit=crop",
+      "content": "L'éducation est plus que simplement apprendre à lire et à écrire ; c'est l'arme la plus puissante que vous puissiez utiliser pour changer le monde. Pour des millions de filles à travers le globe, cependant, ce droit fondamental reste un rêve lointain. Ce n'est pas seulement une perte pour elles, mais une perte pour nous tous. Quand une fille est éduquée, elle est autonomisée. Elle peut prendre des décisions éclairées sur sa santé, sa famille et son avenir. Elle peut briser le cycle de la pauvreté et contribuer à la croissance économique de sa communauté et de sa nation.\nMon initiative 'Empower Her' est née de cette conviction. Nous travaillons sur le terrain, en fournissant des bourses, en construisant des environnements d'apprentissage sûrs et en encadrant de jeunes femmes pour qu'elles deviennent les leaders de demain. Nous avons vu de nos propres yeux comment une seule bourse peut transformer une vie, et comment une salle de classe sûre peut devenir un sanctuaire où les rêves s'épanouissent. Le chemin est long, mais chaque fille que nous atteignons est un pas vers un monde plus juste et équitable."
+    },
+    {
+      "slug": "mon-chemin-vers-la-couronne",
+      "title": "Mon Chemin vers la Couronne : Plus qu'un Simple Titre",
+      "summary": "Une réflexion personnelle sur le parcours vers la scène nationale, les défis surmontés et le but qui me pousse à avancer chaque jour.",
+      "image": "https://images.unsplash.com/photo-1528207776546-365bb710ee93?q=80&w=2848&auto=format&fit=crop",
+      "content": "Beaucoup voient la couronne, l'écharpe, les robes glamour. Mais mon parcours jusqu'à cette scène a été pavé de moments de doute, de travail acharné et d'une foi inébranlable en mon objectif. Il n'a pas commencé par un désir de reconnaissance, mais par un besoin profond de faire une différence tangible. Les matins de bonne heure, les heures de préparation interminables, les sacrifices — tout cela était alimenté par la vision d'une plateforme depuis laquelle je pourrais parler pour ceux qui ne le peuvent pas.\nIl y a eu des moments où la pression semblait écrasante, où la critique était acerbe. Dans ces moments, je me suis appuyée sur ma famille, mes mentors et les histoires des personnes que je souhaite servir. Ils m'ont rappelé que ce n'était pas à propos de moi. C'était à propos des causes que je représente, du changement que j'espère inspirer. Ce titre n'est pas la destination ; c'est le début d'un nouveau chapitre de service, plus percutant."
+    },
+    {
+      "slug": "la-sante-mentale-compte",
+      "title": "La Santé Mentale Compte : Briser le Stigmate Ensemble",
+      "summary": "Rejoignez la conversation sur le bien-être mental. Je partage mon point de vue sur pourquoi il est crucial de créer une culture d'ouverture et de soutien.",
+      "image": "https://images.unsplash.com/photo-1598982249552-217c390d4c64?q=80&w=2940&auto=format&fit=crop",
+      "content": "Dans un monde qui exige souvent la perfection, il est plus important que jamais de parler de notre santé mentale. Pendant trop longtemps, les conversations sur l'anxiété, la dépression et le bien-être mental ont été enveloppées de silence et de stigmatisation. Ce silence est dangereux. Il empêche les gens de chercher l'aide dont ils ont besoin et qu'ils méritent. Il crée une culture où souffrir en silence est considéré comme un signe de force, alors qu'en réalité, c'est le contraire. La vraie force réside dans la vulnérabilité, dans le fait de tendre la main et de se soutenir les uns les autres.\nNous devons normaliser ces conversations dans nos foyers, nos écoles et nos lieux de travail. Nous devons plaider pour un meilleur accès aux soins de santé mentale et créer des communautés où l'empathie et la compréhension sont la norme. Mon propre parcours m'a appris l'importance de prendre soin de soi et de chercher du soutien. Il est normal de ne pas aller bien, mais il n'est pas normal de souffrir seul. Brisons le stigmate, ensemble."
+    }
+  ],
+  "press_kit_page": {
+    "meta_title": "Dossier de Presse | Aura Universe",
+    "meta_description": "Accédez aux ressources médiatiques officielles de Camilla, y compris un dossier de presse téléchargeable, des photos haute résolution et les coordonnées des relations publiques.",
+    "title": "Dossier de Presse",
+    "subtitle": "Ressources officielles pour les médias, la presse et les demandes de partenariat.",
+    "download_title": "Télécharger le Dossier de Presse Complet",
+    "download_description": "Notre dossier de presse complet comprend une biographie détaillée, des portraits officiels et des informations sur mon travail de plaidoyer. Disponible au format PDF.",
+    "download_cta": "Télécharger le PDF",
+    "photos_title": "Photos pour les Médias",
+    "photo_alt": "Photo de Camilla pour les médias",
+    "contact_title": "Contact Relations Publiques",
+    "contact_description": "Pour toutes les demandes des médias, les demandes d'interview ou les informations de réservation, veuillez contacter mon équipe de relations publiques.",
+    "contact_email": "pr@aurauniverse.com"
+  },
+  "contact": {
+    "meta_title": "Contactez-moi | Aura Universe",
+    "meta_description": "Contactez Camilla pour toute demande, collaboration, réservation ou demande des médias. Suivez son parcours sur les réseaux sociaux.",
+    "title": "Contactez-moi",
+    "subtitle": "Pour toute demande, collaboration, ou simplement pour dire bonjour.",
+    "form_title": "Formulaire de Contact",
+    "label_name": "Nom",
+    "placeholder_name": "Votre Nom",
+    "label_email": "E-mail",
+    "placeholder_email": "Votre E-mail",
+    "label_message": "Message",
+    "placeholder_message": "Votre Message",
+    "button_send": "Envoyer le Message",
+    "button_sending": "Envoi en cours...",
+    "follow_title": "Suivez-moi",
+    "follow_subtitle": "Restez connecté et suivez mon parcours sur les réseaux sociaux.",
+    "inquiries_title": "Réservations & Demandes Médias",
+    "validation": {
+      "name_required": "Le nom doit comporter au moins 2 caractères.",
+      "email_invalid": "Veuillez saisir une adresse e-mail valide.",
+      "message_required": "Le message doit comporter au moins 10 caractères."
+    },
+    "toast_success_title": "Message Envoyé !",
+    "toast_success_description": "Merci de m'avoir contactée. Je vous répondrai bientôt."
+  },
+  "footer": {
+    "copyright": "Tous droits réservés.",
+    "credit": "Construit avec ❤️ chez Cloudflare"
+  }
+}
