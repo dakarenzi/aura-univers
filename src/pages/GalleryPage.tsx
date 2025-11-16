@@ -24,9 +24,9 @@ export function GalleryPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="py-24 md:py-32 lg:py-40">
             <div className="text-center mb-16">
-              <h1 className="text-4xl md:text-5xl font-display font-bold">Galerie</h1>
+              <h1 className="text-4xl md:text-5xl font-display font-bold">Gallery</h1>
               <p className="mt-4 text-lg text-foreground/80 max-w-3xl mx-auto">
-                Une collection de moments capturés dans le temps.
+                A collection of moments captured in time.
               </p>
             </div>
             <Dialog>

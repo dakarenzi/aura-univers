@@ -21,10 +21,10 @@ export function Footer() {
             </a>
           </div>
           <p className="mt-4 text-center text-sm text-foreground/60">
-            &copy; {new Date().getFullYear()} Aura Universe. Tous droits réservés.
+            &copy; {new Date().getFullYear()} Aura Universe. All rights reserved.
           </p>
           <p className="text-center text-xs text-foreground/50">
-            Construit avec ❤️ chez Cloudflare
+            Built with ��️ at Cloudflare
           </p>
         </div>
       </div>

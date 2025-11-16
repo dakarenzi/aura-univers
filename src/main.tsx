@@ -17,6 +17,7 @@ import { VideosPage } from '@/pages/VideosPage';
 import { ContactPage } from '@/pages/ContactPage';
 import { AppLayout } from '@/components/layout/AppLayout';
 import { AnimatedOutlet } from '@/components/AnimatedOutlet';
+import { Toaster } from '@/components/ui/sonner';
 const router = createBrowserRouter([
   {
     element: (
@@ -39,6 +40,7 @@ createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <ErrorBoundary>
       <RouterProvider router={router} />
+      <Toaster />
     </ErrorBoundary>
   </StrictMode>,
 )

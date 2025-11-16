@@ -14,9 +14,9 @@ export function VideosPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="py-24 md:py-32 lg:py-40">
             <div className="text-center mb-16">
-              <h1 className="text-4xl md:text-5xl font-display font-bold">Vidéos</h1>
+              <h1 className="text-4xl md:text-5xl font-display font-bold">Videos</h1>
               <p className="mt-4 text-lg text-foreground/80 max-w-3xl mx-auto">
-                Moments forts des interviews, campagnes et performances.
+                Highlights from interviews, campaigns, and performances.
               </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
