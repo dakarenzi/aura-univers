@@ -1,29 +1,28 @@
 import { Crown, Star, Award, Heart } from 'lucide-react';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 const achievements = [
   {
     icon: <Crown className="h-6 w-6 text-brand-gold" />,
     year: "2024",
-    title: "National Miss Universe Title",
-    description: "Crowned as the national representative, a culmination of years of dedication and hard work.",
+    title: "Titre National de Miss Univers",
+    description: "Couronnée représentante nationale, l'aboutissement d'années de dévouement et de travail acharné.",
   },
   {
     icon: <Award className="h-6 w-6 text-brand-gold" />,
     year: "2023",
-    title: "University of Excellence, Dean's List",
-    description: "Achieved academic excellence in International Relations, balancing rigorous studies with pageant preparations.",
+    title: "Université d'Excellence, Liste du Doyen",
+    description: "Atteinte de l'excellence académique en Relations Internationales, tout en équilibrant des études rigoureuses avec les préparations au concours.",
   },
   {
     icon: <Heart className="h-6 w-6 text-brand-gold" />,
     year: "2022",
-    title: "Founder of 'Empower Her' Initiative",
-    description: "Launched a non-profit organization dedicated to providing educational resources for underprivileged girls.",
+    title: "Fondatrice de l'initiative 'Empower Her'",
+    description: "Lancement d'une organisation à but non lucratif dédiée à fournir des ressources éducatives aux filles défavorisées.",
   },
   {
     icon: <Star className="h-6 w-6 text-brand-gold" />,
     year: "2021",
-    title: "Goodwill Ambassador for Children's Health",
-    description: "Partnered with global health organizations to advocate for better healthcare access for children in rural areas.",
+    title: "Ambassadrice de Bonne Volonté pour la Santé des Enfants",
+    description: "Partenariat avec des organisations mondiales de la santé pour plaider en faveur d'un meilleur accès aux soins pour les enfants des zones rurales.",
   },
 ];
 export function AchievementsTimeline() {

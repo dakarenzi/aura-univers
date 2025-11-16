@@ -10,9 +10,9 @@ import { z } from 'zod';
 import { toast } from 'sonner';
 import { PageMetadata } from '@/components/PageMetadata';
 const contactFormSchema = z.object({
-  name: z.string().min(2, { message: "Name must be at least 2 characters." }),
-  email: z.string().email({ message: "Please enter a valid email address." }),
-  message: z.string().min(10, { message: "Message must be at least 10 characters." }),
+  name: z.string().min(2, { message: "Le nom doit comporter au moins 2 caractères." }),
+  email: z.string().email({ message: "Veuillez saisir une adresse e-mail valide." }),
+  message: z.string().min(10, { message: "Le message doit comporter au moins 10 caractères." }),
 });
 type ContactFormValues = z.infer<typeof contactFormSchema>;
 const TikTokIcon = () => (
@@ -29,54 +29,54 @@ export function ContactPage() {
     // Simulate API call
     await new Promise(resolve => setTimeout(resolve, 1000));
     console.log(data);
-    toast.success("Message Sent!", {
-      description: "Thank you for reaching out. I'll get back to you soon.",
+    toast.success("Message Envoyé !", {
+      description: "Merci de m'avoir contactée. Je vous répondrai bientôt.",
     });
     reset();
   };
   return (
     <PageTransition>
       <PageMetadata
-        title="Contact Me | Aura Universe"
-        description="Get in touch with Camilla for inquiries, collaborations, bookings, or media requests. Follow her journey on social media."
+        title="Contactez-moi | Aura Universe"
+        description="Contactez Camilla pour toute demande, collaboration, réservation ou demande des médias. Suivez son parcours sur les réseaux sociaux."
       />
       <div className="bg-background text-foreground">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="py-24 md:py-32 lg:py-40">
             <div className="text-center mb-16">
-              <h1 className="text-4xl md:text-5xl font-display font-bold">Contact Me</h1>
+              <h1 className="text-4xl md:text-5xl font-display font-bold">Contactez-moi</h1>
               <p className="mt-4 text-lg text-foreground/80 max-w-3xl mx-auto">
-                For inquiries, collaborations, or just to say hello.
+                Pour toute demande, collaboration, ou simplement pour dire bonjour.
               </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
               <div className="space-y-6">
-                <h2 className="text-2xl font-display font-semibold text-brand-gold">Contact Form</h2>
+                <h2 className="text-2xl font-display font-semibold text-brand-gold">Formulaire de Contact</h2>
                 <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
                   <div>
-                    <Label htmlFor="name" className="text-foreground/80">Name</Label>
-                    <Input id="name" type="text" placeholder="Your Name" {...register('name')} className="bg-card border-brand-gold/30 focus:border-brand-gold focus:ring-brand-gold" />
+                    <Label htmlFor="name" className="text-foreground/80">Nom</Label>
+                    <Input id="name" type="text" placeholder="Votre Nom" {...register('name')} className="bg-card border-brand-gold/30 focus:border-brand-gold focus:ring-brand-gold" />
                     {errors.name && <p className="text-sm text-destructive mt-1">{errors.name.message}</p>}
                   </div>
                   <div>
-                    <Label htmlFor="email" className="text-foreground/80">Email</Label>
-                    <Input id="email" type="email" placeholder="Your Email" {...register('email')} className="bg-card border-brand-gold/30 focus:border-brand-gold focus:ring-brand-gold" />
+                    <Label htmlFor="email" className="text-foreground/80">E-mail</Label>
+                    <Input id="email" type="email" placeholder="Votre E-mail" {...register('email')} className="bg-card border-brand-gold/30 focus:border-brand-gold focus:ring-brand-gold" />
                     {errors.email && <p className="text-sm text-destructive mt-1">{errors.email.message}</p>}
                   </div>
                   <div>
                     <Label htmlFor="message" className="text-foreground/80">Message</Label>
-                    <Textarea id="message" placeholder="Your Message" rows={5} {...register('message')} className="bg-card border-brand-gold/30 focus:border-brand-gold focus:ring-brand-gold" />
+                    <Textarea id="message" placeholder="Votre Message" rows={5} {...register('message')} className="bg-card border-brand-gold/30 focus:border-brand-gold focus:ring-brand-gold" />
                     {errors.message && <p className="text-sm text-destructive mt-1">{errors.message.message}</p>}
                   </div>
                   <Button type="submit" disabled={isSubmitting} className="w-full bg-brand-gold text-brand-navy hover:bg-brand-gold/90 font-semibold disabled:opacity-50">
-                    {isSubmitting ? 'Sending...' : 'Send Message'}
+                    {isSubmitting ? 'Envoi en cours...' : 'Envoyer le Message'}
                   </Button>
                 </form>
               </div>
               <div className="space-y-6">
-                <h2 className="text-2xl font-display font-semibold text-brand-gold">Follow Me</h2>
+                <h2 className="text-2xl font-display font-semibold text-brand-gold">Suivez-moi</h2>
                 <p className="text-foreground/80">
-                  Stay connected and follow my journey on social media.
+                  Restez connecté et suivez mon parcours sur les réseaux sociaux.
                 </p>
                 <div className="flex space-x-4">
                   <a href="#" className="p-3 bg-brand-gold/10 rounded-full hover:bg-brand-gold/20 transition-colors">
@@ -90,7 +90,7 @@ export function ContactPage() {
                   </a>
                 </div>
                 <div className="pt-4">
-                  <h3 className="text-lg font-semibold">Bookings & Media Inquiries</h3>
+                  <h3 className="text-lg font-semibold">Réservations & Demandes Médias</h3>
                   <p className="text-foreground/80">
                     <a href="mailto:contact@aurauniverse.com" className="text-brand-gold hover:underline">
                       contact@aurauniverse.com

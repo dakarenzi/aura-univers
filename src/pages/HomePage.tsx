@@ -7,8 +7,8 @@ export function HomePage() {
   return (
     <PageTransition>
       <PageMetadata
-        title="Aura Universe | Home"
-        description="Welcome to the official portfolio of Camilla. Discover the journey of grace, intelligence, and determination of a Miss Universe contestant."
+        title="Aura Universe | Accueil"
+        description="Bienvenue sur le portfolio officiel de Camilla. Découvrez le parcours de grâce, d'intelligence et de détermination d'une candidate à Miss Univers."
       />
       <div className="relative min-h-screen flex items-center justify-center text-center overflow-hidden bg-brand-navy">
         <div
@@ -24,7 +24,7 @@ export function HomePage() {
             transition={{ duration: 0.8, ease: 'easeOut' }}
             className="text-5xl md:text-7xl lg:text-8xl font-display font-bold text-balance leading-tight"
           >
-            The Aura of the Universe
+            L'Aura de l'Univers
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -32,7 +32,7 @@ export function HomePage() {
             transition={{ duration: 0.8, delay: 0.2, ease: 'easeOut' }}
             className="mt-4 text-lg md:text-xl max-w-2xl mx-auto text-brand-light/90"
           >
-            Embodying grace, intelligence, and determination. Discover Camilla's journey.
+            Incarnant la grâce, l'intelligence et la détermination. Découvrez le parcours de Camilla.
           </motion.p>
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -45,7 +45,7 @@ export function HomePage() {
               size="lg"
               className="bg-brand-gold text-brand-navy hover:bg-brand-gold/90 font-semibold px-8 py-6 text-lg transition-transform duration-200 hover:scale-105"
             >
-              <Link to="/about">Discover My Story</Link>
+              <Link to="/about">Découvrez Mon Histoire</Link>
             </Button>
           </motion.div>
         </div>

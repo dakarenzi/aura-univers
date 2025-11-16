@@ -3,25 +3,25 @@ import { Card } from '@/components/ui/card';
 import { AspectRatio } from '@/components/ui/aspect-ratio';
 import { PageMetadata } from '@/components/PageMetadata';
 const videos = [
-  { id: 'rokGy0huYEA', title: 'Miss Universe 2023 - RBonney Gabriel (USA) | Final Question' },
-  { id: 'b-18vQwno-A', title: 'Miss Universe 2022 - FULL SHOW' },
-  { id: 'Z8l3h_5A4eE', title: 'Miss Universe 2021 - Harnaaz Sandhu (India) | Final Question' },
-  { id: 'UryjCzSeMXE', title: 'Miss Universe 2020 - Andrea Meza (Mexico) | Final Question' },
+  { id: 'rokGy0huYEA', title: 'Miss Univers 2023 - RBonney Gabriel (USA) | Question Finale' },
+  { id: 'b-18vQwno-A', title: 'Miss Univers 2022 - SPECTACLE COMPLET' },
+  { id: 'Z8l3h_5A4eE', title: 'Miss Univers 2021 - Harnaaz Sandhu (Inde) | Question Finale' },
+  { id: 'UryjCzSeMXE', title: 'Miss Univers 2020 - Andrea Meza (Mexique) | Question Finale' },
 ];
 export function VideosPage() {
   return (
     <PageTransition>
       <PageMetadata
-        title="Videos | Aura Universe"
-        description="Watch highlights from Camilla's interviews, campaigns, and performances. A collection of her most memorable video moments."
+        title="Vidéos | Aura Universe"
+        description="Regardez les moments forts des interviews, campagnes et performances de Camilla. Une collection de ses moments vidéo les plus mémorables."
       />
       <div className="bg-background text-foreground">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="py-24 md:py-32 lg:py-40">
             <div className="text-center mb-16">
-              <h1 className="text-4xl md:text-5xl font-display font-bold">Videos</h1>
+              <h1 className="text-4xl md:text-5xl font-display font-bold">Vidéos</h1>
               <p className="mt-4 text-lg text-foreground/80 max-w-3xl mx-auto">
-                Highlights from interviews, campaigns, and performances.
+                Moments forts des interviews, campagnes et performances.
               </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">

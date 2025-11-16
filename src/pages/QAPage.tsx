@@ -8,40 +8,40 @@ import {
 import { PageMetadata } from '@/components/PageMetadata';
 const qaItems = [
   {
-    question: "What does the Miss Universe title mean to you?",
-    answer: "To me, the Miss Universe title is not just a crown; it's a microphone. It represents a powerful platform to amplify important global conversations, connect with people from all walks of life, and take meaningful action on the causes I am passionate about, such as educational equity and mental health awareness."
+    question: "Que signifie le titre de Miss Univers pour vous ?",
+    answer: "Pour moi, le titre de Miss Univers n'est pas seulement une couronne ; c'est un micro. Il représente une plateforme puissante pour amplifier des conversations mondiales importantes, pour me connecter avec des gens de tous horizons et pour agir de manière significative sur les causes qui me passionnent, comme l'équité en matière d'éducation et la sensibilisation à la santé mentale."
   },
   {
-    question: "How do you handle the pressure of competition?",
-    answer: "I handle pressure by staying grounded in my purpose. I remind myself why I started this journey—to make a difference. Practicing mindfulness, maintaining a strong support system of family and friends, and focusing on personal growth rather than just the outcome are essential parts of my routine."
+    question: "Comment gérez-vous la pression de la compétition ?",
+    answer: "Je gère la pression en restant ancrée dans mon objectif. Je me rappelle pourquoi j'ai commencé ce voyage : pour faire une différence. La pratique de la pleine conscience, le maintien d'un solide système de soutien familial et amical, et la concentration sur ma croissance personnelle plutôt que sur le simple résultat sont des éléments essentiels de ma routine."
   },
   {
-    question: "What is your biggest source of inspiration?",
-    answer: "My biggest inspiration comes from the resilience and strength of the young women I meet through my advocacy work. Their determination to overcome incredible obstacles to pursue their education and dreams fuels my own drive and reminds me of the profound impact we can have on one another's lives."
+    question: "Quelle est votre plus grande source d'inspiration ?",
+    answer: "Ma plus grande inspiration vient de la résilience et de la force des jeunes femmes que je rencontre à travers mon travail de plaidoyer. Leur détermination à surmonter des obstacles incroyables pour poursuivre leurs études et leurs rêves alimente ma propre motivation et me rappelle l'impact profond que nous pouvons avoir les uns sur les autres."
   },
   {
-    question: "What is one message you would like to share with young girls around the world?",
-    answer: "I want every young girl to know that her voice has power and her dreams are valid. Do not be afraid to be ambitious, to be intelligent, and to be compassionate. Embrace your unique qualities, for they are your greatest strengths. Never underestimate the change you can create in the world."
+    question: "Quel message aimeriez-vous partager avec les jeunes filles du monde entier ?",
+    answer: "Je veux que chaque jeune fille sache que sa voix a du pouvoir et que ses rêves sont valides. N'ayez pas peur d'être ambitieuse, d'être intelligente et d'être compatissante. Acceptez vos qualités uniques, car ce sont vos plus grandes forces. Ne sous-estimez jamais le changement que vous pouvez créer dans le monde."
   },
   {
-    question: "How do you define 'beauty with a purpose'?",
-    answer: "'Beauty with a purpose' means using one's visibility and influence for the greater good. It's about recognizing that true beauty lies in our actions, our empathy, and our commitment to leaving the world a better place than we found it. It's about service, substance, and impact."
+    question: "Comment définissez-vous la 'beauté avec un but' ?",
+    answer: "La 'beauté avec un but' signifie utiliser sa visibilité et son influence pour le bien commun. Il s'agit de reconnaître que la vraie beauté réside dans nos actions, notre empathie et notre engagement à laisser le monde meilleur que nous ne l'avons trouvé. C'est une question de service, de substance et d'impact."
   }
 ];
 export function QAPage() {
   return (
     <PageTransition>
       <PageMetadata
-        title="Q&A | Aura Universe"
-        description="Find answers to frequently asked questions about Camilla, her views on the Miss Universe title, her inspirations, and her message to the world."
+        title="Q&R | Aura Universe"
+        description="Trouvez les réponses aux questions fréquemment posées sur Camilla, ses opinions sur le titre de Miss Univers, ses inspirations et son message au monde."
       />
       <div className="bg-background text-foreground">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="py-24 md:py-32 lg:py-40">
             <div className="text-center mb-16">
-              <h1 className="text-4xl md:text-5xl font-display font-bold">Q&A</h1>
+              <h1 className="text-4xl md:text-5xl font-display font-bold">Q&R</h1>
               <p className="mt-4 text-lg text-foreground/80 max-w-3xl mx-auto">
-                Answering some of your most frequently asked questions.
+                Réponses à certaines de vos questions les plus fréquentes.
               </p>
             </div>
             <div className="max-w-3xl mx-auto">
